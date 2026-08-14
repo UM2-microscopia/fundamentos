@@ -13,6 +13,9 @@ Fiji es una distribución de ImageJ preconfigurada con una amplia colección de 
 
 [Fiji download page](https://imagej.net/software/fiji/downloads)
 
+## Complete the conceptos básicos de FIJI ejercicios
+Follow the exercises below, in order to be comfortable opening an image, manipulating it and performing basics function on it using FIJI
+
 ---
 
 # Conceptos Básicos de FIJI
