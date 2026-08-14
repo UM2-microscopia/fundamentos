@@ -90,8 +90,8 @@ Another option is to:
 
 The image will display in a new window with the filename in the title bar.
 
-Open your image using the BioFormats importer in order to generate the Bio-Formats Import Options (see image below):
-** Plugins → BioFormats → BioFormats Importer**
+Open an image using the BioFormats importer in order to generate the Bio-Formats Import Options (see image below):
+**Plugins → BioFormats → BioFormats Importer**
 
 _NB This BioFormats Plugin is often also automatically called to open the image._
 
@@ -104,9 +104,9 @@ Make a list of any of the options that you don't understand.
 
 | Tool | Function | Shortcut |
 |------|----------|----------|
-| **Zoom In/Out** | Adjust magnification to inspect details or see whole image | `+` / `-` or scroll wheel |
+| **Zoom In/Out** <img width="51" height="45" alt="Precurso-zoom" src="https://github.com/user-attachments/assets/a1469090-97e6-4c75-b5a7-57256e473814" />
+| Adjust magnification to inspect details or see whole image | `+` / `-` or scroll wheel |
 | **Pan** | Move around the image when zoomed in | Click and drag with spacebar |
-| **Color Picker** | Sample pixel values | `I` key |
 | **Measure** | Determine distances and areas | `M` key |
 | **ROI (Region of Interest)** | Select rectangular, oval, or free-form areas | Toolbar buttons |
 
