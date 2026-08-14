@@ -5,10 +5,12 @@ Se les enviará un ejercicio preparatorio sobre este tema la semana anterior al 
 
 ## Vídeo: Introducción a las bioimágenes
 Antes de iniciar el curso, es fundamental hablar el mismo idioma en cuanto a los términos propios de la disciplina. Te recomendamos dedicar un tiempo a estudiar la introducción y el glosario de términos esenciales de análisis de bioimágenes (píxeles, bits, dimensiones, formatos de archivo, etc.). A continuación encontrarás una clase de imagen digital dictada en el Curso de Fundamentos de Microscopía Óptica y de FLuorescencia de 2026 donde se abordan estos temas. 
+
 [Digitalización de la imagen](https://www.youtube.com/watch?v=FPcSHpwuAYc)
 
 ## Download FIJI
 Fiji es una distribución de ImageJ preconfigurada con una amplia colección de plugins. Se distribuye como una versión portable (no requiere instalación formal, solo descomprimir). Descarga la versión adecuada para tu sistema operativo desde la página de descargas de Fiji.
+
 [Fiji download page](https://imagej.net/software/fiji/downloads)
 
 ---
@@ -16,10 +18,10 @@ Fiji es una distribución de ImageJ preconfigurada con una amplia colección de 
 # Conceptos Básicos de FIJI
 
 ## Table of Contents
-- [Qué es Fiji?](#Qué-es-fiji))
-- [Primeros pasos con FIJI]()
-- [abrir y ver imágenes]()
-- [Fonciones fundamental en Fiji]()
+- [Qué es Fiji?](#Qué-es-fiji)
+- [Primeros pasos con FIJI](#Primeros)
+- [Abrir y ver imágenes](#abrir-ver)
+- [Fonciones fundamental en Fiji](fonciones)
 
 ---
 
