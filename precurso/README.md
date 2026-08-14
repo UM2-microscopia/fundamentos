@@ -67,6 +67,8 @@ When you launch Fiji, you should see:
 - A menu bar with **File**, **Edit**, **Image**, **Process**, **Analyze**, **Plugins**, **Window**, **Help**
 
 ![Fiji window](assets/fiji_window.png)
+<img width="763" height="136" alt="image" src="https://github.com/user-attachments/assets/9e169043-db77-41e5-a0d4-2bff9ef830c9" />
+
 
 ### Setting Up Sample Data
 
