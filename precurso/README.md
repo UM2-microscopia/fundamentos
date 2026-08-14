@@ -90,11 +90,15 @@ Another option is to:
 
 The image will display in a new window with the filename in the title bar.
 
-In many cases, the BioFormats Plugin will be automatically called to open the image.
+Open your image using the BioFormats importer in order to generate the Bio-Formats Import Options (see image below):
+** Plugins → BioFormats → BioFormats Importer**
+
+_NB This BioFormats Plugin is often also automatically called to open the image._
 
 <img width="1253" height="761" alt="Precurso-2" src="https://github.com/user-attachments/assets/29fba653-9726-4dee-8791-fff09639532f" />
 
-How many of these options do we understand?
+Read the 'Infomation' relating to each of the options (grey box on the righthand side). 
+Make a list of any of the options that you don't understand. 
 
 ### Basic Viewing Tools
 
