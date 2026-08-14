@@ -11,4 +11,16 @@ Antes de iniciar el curso, es fundamental hablar el mismo idioma en cuanto a los
 Fiji es una distribución de ImageJ preconfigurada con una amplia colección de plugins. Se distribuye como una versión portable (no requiere instalación formal, solo descomprimir). Descarga la versión adecuada para tu sistema operativo desde la página de descargas de Fiji.
 [Fiji download page](https://imagej.net/software/fiji/downloads)
 
-## Getting started
+---
+
+# Conceptos Básicos de FIJI
+
+## Table of Contents
+- [Qué es Fiji?](#Qué-es-fiji))
+- [Primeros pasos con FIJI]()
+- [abrir y ver imágenes]()
+- [Fonciones fundamental en Fiji]()
+
+---
+
+
