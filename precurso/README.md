@@ -66,7 +66,7 @@ When you launch Fiji, you should see:
 - The main ImageJ window (toolbar with various tools)
 - A menu bar with **File**, **Edit**, **Image**, **Process**, **Analyze**, **Plugins**, **Window**, **Help**
 
-<img width="1600" height="846" alt="Precurso_1" src="https://github.com/user-attachments/assets/28d19080-f9f2-4a1f-a04d-a00a9a2cae45" />
+<img width="1060" height="166" alt="Precurso-1" src="https://github.com/user-attachments/assets/0397db79-3d2e-45c8-98d5-ac29fffe0d30" />
 
 ### Setting Up Sample Data
 
