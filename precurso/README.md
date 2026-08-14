@@ -92,7 +92,7 @@ The image will display in a new window with the filename in the title bar.
 
 In many cases, the BioFormats Plugin will be automatically called to open the image.
 
-![BioFormats Plugin](assets/bioformats_plugin.png)
+<img width="1253" height="761" alt="Precurso-2" src="https://github.com/user-attachments/assets/29fba653-9726-4dee-8791-fff09639532f" />
 
 How many of these options do we understand?
 
