@@ -121,7 +121,9 @@ The image will display in a new window with the filename in the title bar.
 > EXERCISE
 
 >Zoom in as much as you can into a small region. What do you see?
+>
 >If you hover your mouse over some pixels, what do you see at the bottom grey area of the FIJI main window?
+>
 >Move your cursor to the brightest part of the zoomed-in image that you can find. What is the value assosicated with this pixel? Repeat this with the darkest pixel.
 
 
