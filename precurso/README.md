@@ -93,15 +93,21 @@ Another option is to:
 
 The image will display in a new window with the filename in the title bar.
 
-Open an image using the BioFormats importer in order to generate the Bio-Formats Import Options (see image below):
-**Plugins → BioFormats → BioFormats Importer**
+<div style="border: 2px solid gray; padding: 10px; background-color: #f9f9f9;">
 
-_NB This BioFormats Plugin is often also automatically called to open the image._
+>**EXERCISE**
+  
+>Open an image using the BioFormats importer in order to generate the Bio-Formats Import Options (see image below):
+>**Plugins → BioFormats → BioFormats Importer**
+
+>_NB This BioFormats Plugin is often also automatically called to open the image._
 
 <img width="1253" height="761" alt="Precurso-2" src="https://github.com/user-attachments/assets/29fba653-9726-4dee-8791-fff09639532f" />
 
-Read the 'Infomation' relating to each of the options (grey box on the righthand side). 
-Make a list of any of the options that you don't understand. 
+>Read the 'Infomation' relating to each of the options (grey box on the righthand side). 
+>Make a list of any of the options that you don't understand. 
+
+
 
 ### Basic Viewing Tools
 
@@ -112,13 +118,12 @@ Make a list of any of the options that you don't understand.
 | **Measure** <img width="100" height="51" alt="precurso-measure" src="https://github.com/user-attachments/assets/e639b299-011f-4fa5-ae3f-c22e65a520bd" /> | Determine distances and areas | `M` key |
 | **ROI (Region of Interest)**<img width="202" height="51" alt="precurso-roi" src="https://github.com/user-attachments/assets/84752fbc-7fc2-4b20-b106-11b18cf4d99a" />  | Select rectangular, oval, or free-form areas | Toolbar buttons |
 
-#### Excercise
+> EXERCISE
 
-Zoom in as much as you can into a small region. What do you see? Are the squares part of the sample or a rendering? If you hover your mouse over some pixels, what do you see at the bottom grey area of the Fiji main window?
+>Zoom in as much as you can into a small region. What do you see?
+>If you hover your mouse over some pixels, what do you see at the bottom grey area of the FIJI main window?
+>Move your cursor to the brightest part of the zoomed-in image that you can find. What is the value assosicated with this pixel? Repeat this with the darkest pixel.
 
-<--!
-Students should be able to see the pixels as squares, understand that these correspond to the representation of the matrix of pixels. When hovering the mouse over pixels, Fiji window shows the coordinates in microns (and in pixels), as well as the intensity value.
--->
 
 ### Checking Image Properties
 
