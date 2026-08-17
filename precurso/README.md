@@ -74,7 +74,9 @@ When you launch Fiji, you should see:
 ### Setting Up Sample Data
 
 For this workshop, we recommend having sample images available. For the precurso material, please download the following image:
+
 [precurso_planta.ome.tiff](https://drive.google.com/file/d/1Sl1uZi2EODIo9HyInZcIMZPMz8X3OxVQ/view?usp=drive_link)
+
 _NB you will need a google account to access this image. Please email us if you have any problems downloading this_
 ---
 
@@ -161,14 +163,6 @@ To change the bit depth of your image:
 2. Select your desired bit depth: `8-bit`, `16-bit`, or `32-bit`
 3. If converting from higher to lower bit depth (e.g., 16-bit to 8-bit), you may lose information
 
-#### Exercise
-
-Why might you want to convert a 16-bit image to 8-bit? Consider factors like file size, processing speed, memory usage, and the type of analysis you plan to do. When would it be a bad idea?
-
-<--!
-Students should think about trade-offs between data quality and computational efficiency. Converting 16-bit to 8-bit reduces file size and memory footprint, making it useful for large datasets or batch processing. However, it loses intensity information, which could be critical for quantitative analysis requiring fine intensity discrimination. It's generally safe for visualization and qualitative analysis but risky for measurements and quantification. Converting images to 32-bit allows you to perform operations that can result in floating points, such as divisions.
--->
-
 ---
 
 ## Essential Fiji Functions
@@ -179,7 +173,9 @@ Most of the operations are applied on the currently selected image, which might 
 Some operations cannot be undone, which means that you have to reopen the image and go through the whole process again if something goes wrong.
 To avoid this, it's a good idea to duplicate the image just in case.
 
-Go to `Image > Duplicate`.
+> EXERCISE
+> Go to `Image > Duplicate`.
+> Duplicate the image and both channels
 
 ### Adjusting Brightness & Contrast
 
@@ -195,6 +191,16 @@ Go to `Image > Duplicate`.
 #### Excercise
 
 Try clicking on **Apply** to see what happens to the pixel values.
+
+### Generating image histogram
+
+
+#### Exercise
+
+Why might you want to convert a 16-bit image to 8-bit? Consider factors like file size, processing speed, memory usage, and the type of analysis you plan to do. When would it be a bad idea?
+
+
+
 
 ### Changing the LookUp Table
 
