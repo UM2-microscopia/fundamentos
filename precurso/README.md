@@ -73,10 +73,9 @@ When you launch Fiji, you should see:
 
 ### Setting Up Sample Data
 
-For this workshop, we recommend having sample images available. You can:
-
-ADD OUR OWN DATA SUGGESTIONS HERE, THINK ABOUT WHAT WE NEED
-
+For this workshop, we recommend having sample images available. For the precurso material, please download the following image:
+[precurso_planta.ome.tiff](https://drive.google.com/file/d/1Sl1uZi2EODIo9HyInZcIMZPMz8X3OxVQ/view?usp=drive_link)
+_NB you will need a google account to access this image. Please email us if you have any problems downloading this_
 ---
 
 ## Opening and Viewing Images
@@ -97,7 +96,7 @@ The image will display in a new window with the filename in the title bar.
 
 >**EXERCISE**
   
->Open an image using the BioFormats importer in order to generate the Bio-Formats Import Options (see image below):
+>Open precurso_planta.ome.tiff (that you previously downloaded) using the BioFormats importer in order to generate the Bio-Formats Import Options (see image below):
 >**Plugins → BioFormats → BioFormats Importer**
 
 >_NB This BioFormats Plugin is often also automatically called to open the image._
@@ -105,9 +104,8 @@ The image will display in a new window with the filename in the title bar.
 <img width="1253" height="761" alt="Precurso-2" src="https://github.com/user-attachments/assets/29fba653-9726-4dee-8791-fff09639532f" />
 
 >Read the 'Infomation' relating to each of the options (grey box on the righthand side). 
->Make a list of any of the options that you don't understand. 
-
-
+>Make a list of any of the options that you don't understand.
+>
 
 ### Basic Viewing Tools
 
@@ -140,8 +138,8 @@ Fill in the following table:
 | Metadata Item | Value |
 |---|---|
 | Pixel Size (µm) | |
-| Magnification | |
-| Numerical Aperture (NA) | |
+| Objective lens Magnification | |
+| objective lens Numerical Aperture (NA) | |
 | Bit Depth | |
 | Image Dimensions (width × height) | |
 | Number of Channels | |
