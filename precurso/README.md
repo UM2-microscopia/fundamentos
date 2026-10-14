@@ -61,7 +61,7 @@ Sigue los ejercicios que aparecen a continuación para familiarizarse con la ape
 3. Extrae el archivo descargado en la ubicación que prefieras (preferiblemente en un lugar donde no se requieran permisos de administrador para modificar archivos)
 4. Haz doble clic en `Fiji.exe` (Windows) o en el paquete de la aplicación Fiji para iniciarla.
 
-**No se requiere insstalación adicional** - Fiji es una aplicación portátil e incluye java integrado.
+**No se requiere instalación adicional** - Fiji es una aplicación portátil e incluye java integrado.
 
 #### Verificar la instalación
 
@@ -101,30 +101,30 @@ La imagen se mostrará en una nueva ventana con el nombre del archivo en la barr
 >Abrir precurso_planta.ome.tiff (that you previously downloaded) utlizando el importador BioFormats para generar las opciones de importación de  Bio-Formats Import Options (véase la imagen a continuacion):
 >**Plugins → BioFormats → BioFormats Importer**
 
->_NB This BioFormats Plugin is often also automatically called to open the image._
+>_NB Este plugin de BioFormats también suele invocarse automáticamente para abrir la imagen._
 
 <img width="1253" height="761" alt="Precurso-2" src="https://github.com/user-attachments/assets/29fba653-9726-4dee-8791-fff09639532f" />
 
->Read the 'Infomation' relating to each of the options (grey box on the righthand side). 
->Make a list of any of the options that you don't understand.
+>Lea la información relativa a cada una de las opciones (recuadro gris a la derecha). 
+>Haz una lista de las opciones que no entiendas.
 >
 
-### Basic Viewing Tools
+### Herramientas básicas de visualización
 
-| Tool | Function | Shortcut |
+| Herramienta | Función | Shortcut |
 |------|----------|----------|
-| **Zoom In/Out** <img width="51" height="45" alt="Precurso-zoom" src="https://github.com/user-attachments/assets/a1469090-97e6-4c75-b5a7-57256e473814" /> | Adjust magnification to inspect details or see whole image | `+` / `-` or scroll wheel |
-| **Pan** <img width="51" height="45" alt="precurso-pan" src="https://github.com/user-attachments/assets/669ab164-2781-440f-9782-84c78b9a211d" />| Move around the image when zoomed in | Click and drag with spacebar |
-| **Measure** <img width="100" height="51" alt="precurso-measure" src="https://github.com/user-attachments/assets/e639b299-011f-4fa5-ae3f-c22e65a520bd" /> | Determine distances and areas | `M` key |
-| **ROI (Region of Interest)**<img width="202" height="51" alt="precurso-roi" src="https://github.com/user-attachments/assets/84752fbc-7fc2-4b20-b106-11b18cf4d99a" />  | Select rectangular, oval, or free-form areas | Toolbar buttons |
+| **Acercar/Alejar** <img width="51" height="45" alt="Precurso-zoom" src="https://github.com/user-attachments/assets/a1469090-97e6-4c75-b5a7-57256e473814" /> | Ajuste la ampliación para examinar detalles o ver la imagen completa | `+` / `-` o scroll |
+| **Desplazar** <img width="51" height="45" alt="precurso-pan" src="https://github.com/user-attachments/assets/669ab164-2781-440f-9782-84c78b9a211d" />| Desplázase por la imagen cuando esté ampliada | Haz clic y arrastra con la barra espaciadora |
+| **Medir** <img width="100" height="51" alt="precurso-measure" src="https://github.com/user-attachments/assets/e639b299-011f-4fa5-ae3f-c22e65a520bd" /> | Determine distancias y áreas | `M` |
+| **ROI (Region of Interest)**<img width="202" height="51" alt="precurso-roi" src="https://github.com/user-attachments/assets/84752fbc-7fc2-4b20-b106-11b18cf4d99a" />  | Seleccione áreas rectangulares, ovaladas o de forma libre | Botones de la barra de herramientas |
 
-> EXERCISE
+> EJERCICIO  
 
->Zoom in as much as you can into a small region. What do you see?
+>Haz tanto zoom como pueda en una región pequeña. ¿Qué ve?
 >
->If you hover your mouse over some pixels, what do you see at the bottom grey area of the FIJI main window?
+>Si pasas el ratón sobre algunos píxeles, ¿qué ve en el área gris inferior de la ventana principal de FIJI?
 >
->Move your cursor to the brightest part of the zoomed-in image that you can find. What is the value assosicated with this pixel? Repeat this with the darkest pixel.
+>Mueve el cursor a la parte más brillante que encuentres en la imagen ampliada. ¿Cuál es el valor asociado a este píxel? Repite el procedimiento con el píxel más oscuro.
 
 
 ### Checking Image Properties
