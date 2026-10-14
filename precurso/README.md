@@ -21,14 +21,14 @@ Sigue los ejercicios que aparecen a continuación para familiarizarse con la ape
 # Conceptos Básicos de FIJI
 
 ## Tabla de contenido
-- [Qué es FIJI?](#Qué-es-fiji)
-- [Primeros pasos con FIJI](#Primeros)
-- [Abrir y ver imágenes](#abrir-ver)
-- [Fonciones fundamental en Fiji](fonciones)
+- [Qué es FIJI?]
+- [Primeros pasos con FIJI]
+- [Abrir y ver imágenes]
+- [Fonciones fundamental en Fiji]
 
 ---
 
-## Qué es FIJI?
+## Qué es FIJI? 
 
 **Fiji** (Fiji Is Just ImageJ) es una plataforma gratuita de código abierto para el procesamiento y análisis de imágenes, desarrollada sobre la base de ImageJ. Se utiliza ampliamente en la investigación científica, especialmente en microscopía, imagenología médica y análisis general de imágenes.
 
@@ -204,13 +204,18 @@ Esta función se utiliza para hacer que las imágenes tenues sean más visibles 
 >Qué pasa a los valores de los pixeles?
 
 
-### Generating image histogram
+### Generando el histograma de la imagen
+###  Intensity Histogram
 
-
-#### Exercise
-
-Why might you want to convert a 16-bit image to 8-bit? Consider factors like file size, processing speed, memory usage, and the type of analysis you plan to do. When would it be a bad idea?
-
+>EJERCICIO
+1. Abre precurs_rinon.tif
+2. Vaya a **Analyze → Histogram** y generar una histgrama para una imagen. 
+3. Haz clic `Log`
+4. ¿Qué se puede decir sobre el histograma? ¿Está sesgado hacia la izquierda o hacia la derecha? ¿Cuál es la intensidad máxima y cómo se relaciona esto con la profundidad de bits? ¿Es 0 la intensidad mínima o cuál es?
+5. Cambiar la imagen a 8-bit
+6. Generar nueva histograma
+7. ¿Qué ha cambiado entre los dos histogramas? ¿Cómo han variado las intensidades máxima y mínima? ¿A qué forma se asemeja ahora la curva?
+8. ¿Por qué querrías convertir una imagen de 16 bits a 8 bits? Ten en cuenta factores como el tamaño del archivo, la velocidad de procesamiento, el uso de memoria y el tipo de análisis que planeas realizar. Considerando el cambio en el histograma, ¿cuándo sería una mala idea?
 
 
 ### Cambiando el LUT (LookUp Table)
@@ -249,14 +254,4 @@ Algunas de las imágenes de muestra ya incluyen lo que se denomina una composici
 1. Abrir su iamgen
 2. Ajuste el brillo y el contraste para una mejor visualización.
 3. Vaya a `Image > Color > Make Composite`
-
-###  Intensity Histogram
-1. Go to **Analyze → Histogram**
-2. Click on `Log`
-
-What can you say about the histogram? Is it skewed to the left or right? What is the meximum intensity and how does this relate to the bit-depth? Is 0 the the minimum intensity or which one?
-
-<--!
-The histogram tells a lot about the image. In microscopy, most pixels correspond to the background, so a histogram skewed to the right points to a dark field, probably fluorescence microscopy image, while a histogram skewed to the left means that bright pixels are abundant and is likely to come from bright field. A maximum intensity of 255 or lower means that the bit-depth was probably 8-bit, while higher values means that bit-depth was higher. The minimum intensity also tells us something about the offset used and the risk of underexposing the acquisition.
--->
 
