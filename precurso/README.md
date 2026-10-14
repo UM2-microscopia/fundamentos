@@ -127,17 +127,17 @@ La imagen se mostrará en una nueva ventana con el nombre del archivo en la barr
 >Mueve el cursor a la parte más brillante que encuentres en la imagen ampliada. ¿Cuál es el valor asociado a este píxel? Repite el procedimiento con el píxel más oscuro.
 
 
-### Checking Image Properties
+### Las propiedades de la imagen
 
-After opening an image, first check its header. What are the values on top?
+Tras abrir una imagen, primero revisa su encabezado. ¿Cuáles son los valores que aparecen en la parte superior?
 
-Can you check its metadata? (go to `Image>Show Info...`)
+¿Qué metadatos incluye? (`Image>Show Info...`)
 
-![Show Info Window in Fiji](assets/show_info_window.png)
+![Mostrar ventana de información en Fiji](assets/show_info_window.png)
 
-Fill in the following table:
+Completa la siguiente tabla:
 
-| Metadata Item | Value |
+| Metadata artículo | Valor |
 |---|---|
 | Pixel Size (µm) | |
 | Objective lens Magnification | |
@@ -149,19 +149,19 @@ Fill in the following table:
 | Voxel Dimensions | |
 | Unit | |
 
-### Changing the Bit Depth
+### Cambio de la profundidad de bits
 
-Images can be stored in different formats representing different levels of intensity information:
+Las imágenes pueden almacenarse en diferentes formatos que representan distintos niveles de información de intensidad:
 
-- **8-bit** (256 intensity levels) - Smallest file size, fastest processing, good for display
-- **16-bit** (65,536 intensity levels) - More detail, larger file size, common in microscopy
-- **32-bit** (floating-point) - Highest precision, largest file size, used for calculations
+- **8-bit** (256 niveles de intensidad) - mayor detalle, tamaño de archivo mayor, común en microscopía
+- **16-bit** (65,536 niveles de intensidad) - mayor detalle, tamaño de archivo mayor, común en microscopía
+- **32-bit** (floating-point) - Máxima precisión, tamaño de archivo mayor, utilizado para cálculos
 
-To change the bit depth of your image:
+Para cambiar la profundidad de bits de la imagen:
 
-1. Go to `Image > Type` 
-2. Select your desired bit depth: `8-bit`, `16-bit`, or `32-bit`
-3. If converting from higher to lower bit depth (e.g., 16-bit to 8-bit), you may lose information
+1. Vaya a `Image > Type` 
+2. Seleccione la profundidad de bits deseada: `8-bit`, `16-bit`, or `32-bit`
+3. Si se realiza una conversión de una profundidad de bits mayor a una menor (por ejemplo, de 16 a 8 bits), es posible que se pierda información.
 
 ---
 
