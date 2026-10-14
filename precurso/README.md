@@ -21,10 +21,10 @@ Sigue los ejercicios que aparecen a continuación para familiarizarse con la ape
 # Conceptos Básicos de FIJI
 
 ## Tabla de contenido
-- [Qué es FIJI?]
-- [Primeros pasos con FIJI]
-- [Abrir y ver imágenes]
-- [Fonciones fundamental en Fiji]
+- Qué es FIJI?
+- Primeros pasos con FIJI
+- Abrir y ver imágenes
+- Fonciones fundamental en Fiji
 
 ---
 
