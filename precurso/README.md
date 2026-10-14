@@ -75,7 +75,7 @@ Al inicar Fiji, debería ver:
 
 Para este taller, recomendamos tener dispobibles imágenes de muestra. para el material previo al curso, por favor descargue la siguiente imagen:
 
-[precurso_planta.ome.tiff](https://drive.google.com/file/d/1Sl1uZi2EODIo9HyInZcIMZPMz8X3OxVQ/view?usp=drive_link)
+[precurso_rinon.tif](https://drive.google.com/file/d/1BRXXbFWyGyUZZkwqZHouyBJlWdSQGHdQ/view?usp=drive_link)
 
 _NB necisitará una cuenta de Google para acceder a esta imagen. por favor, eníenos un correo si tiene algún problema para descargarla_
 ---
@@ -133,7 +133,7 @@ Tras abrir una imagen, primero revisa su encabezado. ¿Cuáles son los valores q
 
 ¿Qué metadatos incluye? (`Image>Show Info...`)
 
-![Mostrar ventana de información en Fiji](ADD IN IMAGE)
+<img width="642" height="543" alt="Precurso-3" src="https://github.com/user-attachments/assets/0ae72bdd-6aed-402e-a8ee-785d3c3d5113" />
 
 >EJERCICIO
 >
