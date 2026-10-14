@@ -135,8 +135,10 @@ Tras abrir una imagen, primero revisa su encabezado. ¿Cuáles son los valores q
 
 ![Mostrar ventana de información en Fiji](ADD IN IMAGE)
 
-Completa la siguiente tabla:
-
+>EJERCICIO
+>
+>Completa la siguiente tabla:
+>
 | Metadata artículo | Valor |
 |---|---|
 | Pixel Size (µm) | |
@@ -172,6 +174,7 @@ Para cambiar la profundidad de bits de la imagen:
 A menudo, las operaciones que desee realizar en la imagen modificarán los valores de intensidad de forma irreversible. Para evitar tener que volver a abrir la imagen y repetir todo el proceso si algo sale mal, es recomendable duplicar la imagen al principio.
 
 > EJERCICIO
+> 
 > Vaya a `Image > Duplicate`.
 > 
 > Duplicar la imagen, con ambos canales
