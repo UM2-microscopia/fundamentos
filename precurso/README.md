@@ -209,22 +209,18 @@ Why might you want to convert a 16-bit image to 8-bit? Consider factors like fil
 
 
 
-### Changing the LookUp Table
+### Cambiando el LUT (LookUp Table)
 
-Most of the cameras or detectors are monochromatic, which means that the color with which images are represented is a false color.
-Go to `Image > LookUp Tables` or click on the LUT button and choose a different color.
-What do you think the different palettes are for? Try for example HiLo, cool and 16-colors.
+La mayoría de las cámaras o detectores utilizados en la obtención de imágenes por fluorescencia son monocromáticos y solo recopilan información sobre la intensidad de los fotones que captan, no sobre la longitud de onda. Esto significa que el color con el que se representan las imágenes es un color falso, a menudo basado en los filtros de excitación y emisión empleados para cada canal.
 
-<--!
-The students should notice that the LUT is choosen to enhance visibility of what you want to be shown.
-Greys are better to distinguish differences in intensity.
-Cyan, magenta and greys or yellow might be more color-blind friendly to show superposition of channels.
-cool and divergent LUTs are good to show values above vs values below some mid-level.
-HiLo is great to notice under- and over-exposure.
-16-colors or non-continuous LUTs are good to show labeled images after segmentation.
--->
+Vaya a `Image > LookUp Tables` o haz clic en el LUT botón, que se encuentra en la barra de herramientas de Fiji
 
-### Working with more dimensions
+>EJERCICIO
+>
+>Piensa en para qué podrían utilizarse algunas de las diferentes paletas de colores. Prueba, por ejemplo, con HiLo, cool y la de 16 colores.
+
+
+### Trabajar con múltiples dimensiones
 
 First choose an image with several dimension, like a z-stack with more than one channel.
 If you don't have one, you can choose `File > Open samples > Mitosis (5D stack)`.
