@@ -182,17 +182,22 @@ A menudo, las operaciones que desee realizar en la imagen modificarán los valor
 ### Ajustar el brillo y el contraste
 
 1. `Image > Adjust > Brightness/Contrast...`
-2. Drag sliders to enhance visibility
-3. Check **Auto** for automatic adjustment
-4. Use **Reset** to revert to original
+2. Arrastra los controles deslizantes para mejorar la visibilidad
+3. Hacer clic **Auto** para el adjuste automático
+4. Utilizar **Reset** para volver al estado original
 
-![Brightness and Contrast window](assets/b_and_c_window.png)
+<img width="217" height="407" alt="Precurso-4" src="https://github.com/user-attachments/assets/aa66118f-021a-4097-a5a6-e4bcbc0a5d57" />
 
-*Use case:* Make dim images more visible for analysis.
+Esta función se utiliza para hacer que las imágenes tenues sean más visibles para su análisis.
 
-#### Excercise
+>EJERCICIO
+>
+>Cambia los valores mínimos y máximos de tus imágenes duplicadas.
+>
+>Haz clic **Apply**
+>
+>Qué pasa a los valores de los pixeles?
 
-Try clicking on **Apply** to see what happens to the pixel values.
 
 ### Generating image histogram
 
