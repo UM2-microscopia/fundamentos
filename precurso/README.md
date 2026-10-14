@@ -46,7 +46,7 @@ Sigue los ejercicios que aparecen a continuación para familiarizarse con la ape
 - Mediciones de intensidad
 - registro y ensamblaje de imágenes
 - Visualización de imágenes en 3D
-- análisis de series temporales
+- Análisis de series temporales
 
 ---
 
@@ -71,7 +71,7 @@ Al inicar Fiji, debería ver:
 
 <img width="1060" height="166" alt="Precurso-1" src="https://github.com/user-attachments/assets/0397db79-3d2e-45c8-98d5-ac29fffe0d30" />
 
-### preparación de los datos de muestra
+### Preparación de los datos de muestra
 
 Para este taller, recomendamos tener dispobibles imágenes de muestra. para el material previo al curso, por favor descargue la siguiente imagen:
 
@@ -80,25 +80,25 @@ Para este taller, recomendamos tener dispobibles imágenes de muestra. para el m
 _NB necisitará una cuenta de Google para acceder a esta imagen. por favor, eníenos un correo si tiene algún problema para descargarla_
 ---
 
-## Opening and Viewing Images
+## Abrir y visualizar imágenes
 
-### Opening an Image
+### Abrir una imagen
 
-The easiest way is to use drag-and-drop on the gray area.
+La forma más sencilla es arrastrar y soltar el archivo en el área gris.
 
-Another option is to:
+Otra opciôn es:
 
-1. **File → Open** (or `Ctrl+O` / `Cmd+O`)
-2. Navigate to your image file and select it
-3. Click **Open**
+1. **File → Open** (o `Ctrl+O` / `Cmd+O`)
+2. Buscar el archivo de imagen y seleccionarlo
+3. Hacer clic en **Open**
 
-The image will display in a new window with the filename in the title bar.
+La imagen se mostrará en una nueva ventana con el nombre del archivo en la barra de título.
 
 <div style="border: 2px solid gray; padding: 10px; background-color: #f9f9f9;">
 
->**EXERCISE**
+>**EJERCICIO**
   
->Open precurso_planta.ome.tiff (that you previously downloaded) using the BioFormats importer in order to generate the Bio-Formats Import Options (see image below):
+>Abrir precurso_planta.ome.tiff (that you previously downloaded) utlizando el importador BioFormats para generar las opciones de importación de  Bio-Formats Import Options (véase la imagen a continuacion):
 >**Plugins → BioFormats → BioFormats Importer**
 
 >_NB This BioFormats Plugin is often also automatically called to open the image._
