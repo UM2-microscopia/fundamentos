@@ -222,28 +222,30 @@ Vaya a `Image > LookUp Tables` o haz clic en el LUT botón, que se encuentra en 
 
 ### Trabajar con múltiples dimensiones
 
-First choose an image with several dimension, like a z-stack with more than one channel.
-If you don't have one, you can choose `File > Open samples > Mitosis (5D stack)`.
+Abre precuroso_rinon.tif, o abre una de tus propias Z-stacks con más de un canal. 
 
-![5D stack image](assets/5d_stack_image.png)
+<img width="388" height="712" alt="Precurso-5" src="https://github.com/user-attachments/assets/e2eba624-633a-4f13-8688-b2670b4ef022" />
 
-The sliders at the bottom allow you to go through the different channels, z-planes and timepoints.
-Some of the sample images already have what is called a composite, where channels are shown simultaneously.
-Try doing the following:
+Los controles deslizantes de la parte inferior permiten recorrer los diferentes canales, planos Z y puntos temporales.
+Algunas de las imágenes de muestra ya incluyen lo que se denomina una composición, en la que los canales se muestran simultáneamente.
 
-#### Split Channels
+#### Dividir canales
 1. `Image > Color > Split Channels`
-2. Each channel opens in a separate window
-3. Analyze or process channels independently
+2. Cada canal abre en una ventana distinta
+3. Analizar o procesar canales de forma independiente
 
-#### Merge Channels
+#### Combinar canales
 1. `Image > Color > Merge Channels`
-2. Select source windows for each channel
-3. Do not create a composite image
+2. Seleccione las ventanas de origen para cada canal
+3. Eligir colores para cada canal, y elige si quieres crear una imagen compuesta, abrir nueva ventana con los resultados, o ignorar LUT de origen
 
-#### Channel Visualization
-1. Adjust color assignments for better visualization
-2. Go to `Image > Color > Make Composite`
+<img width="346" height="433" alt="Precurso-6" src="https://github.com/user-attachments/assets/bdd2edab-2b19-4d54-8f8e-6c7c0aec723c" />
+
+#### Visualización de canales
+1. Abrir su iamgen
+2. Ajuste el brillo y el contraste para una mejor visualización.
+3. Vaya a `Image > Color > Make Composite`
+
 
 ### Quick Measurements
 
