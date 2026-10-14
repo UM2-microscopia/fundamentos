@@ -127,13 +127,13 @@ La imagen se mostrará en una nueva ventana con el nombre del archivo en la barr
 >Mueve el cursor a la parte más brillante que encuentres en la imagen ampliada. ¿Cuál es el valor asociado a este píxel? Repite el procedimiento con el píxel más oscuro.
 
 
-### Las propiedades de la imagen
+### Propiedades de una imagen
 
 Tras abrir una imagen, primero revisa su encabezado. ¿Cuáles son los valores que aparecen en la parte superior?
 
 ¿Qué metadatos incluye? (`Image>Show Info...`)
 
-![Mostrar ventana de información en Fiji](assets/show_info_window.png)
+![Mostrar ventana de información en Fiji](ADD IN IMAGE)
 
 Completa la siguiente tabla:
 
@@ -165,19 +165,18 @@ Para cambiar la profundidad de bits de la imagen:
 
 ---
 
-## Essential Fiji Functions
+## Funciones esenciales de Fiji
 
-### Duplicate an image
+### Duplicar una imagen
 
-Most of the operations are applied on the currently selected image, which might change its intensity values.
-Some operations cannot be undone, which means that you have to reopen the image and go through the whole process again if something goes wrong.
-To avoid this, it's a good idea to duplicate the image just in case.
+A menudo, las operaciones que desee realizar en la imagen modificarán los valores de intensidad de forma irreversible. Para evitar tener que volver a abrir la imagen y repetir todo el proceso si algo sale mal, es recomendable duplicar la imagen al principio.
 
-> EXERCISE
-> Go to `Image > Duplicate`.
-> Duplicate the image and both channels
+> EJERCICIO
+> Vaya a `Image > Duplicate`.
+> 
+> Duplicar la imagen, con ambos canales
 
-### Adjusting Brightness & Contrast
+### Ajustar el brillo y el contraste
 
 1. `Image > Adjust > Brightness/Contrast...`
 2. Drag sliders to enhance visibility
