@@ -77,7 +77,7 @@ Para este taller, recomendamos tener dispobibles imágenes de muestra. para el m
 
 [precurso_rinon.tif](https://drive.google.com/file/d/1BRXXbFWyGyUZZkwqZHouyBJlWdSQGHdQ/view?usp=drive_link)
 
-_NB necisitará una cuenta de Google para acceder a esta imagen. por favor, eníenos un correo si tiene algún problema para descargarla_
+>NB necisitará una cuenta de Google para acceder a esta imagen. por favor, eníenos un correo si tiene algún problema para descargarla
 ---
 
 ## Abrir y visualizar imágenes
