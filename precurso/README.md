@@ -179,6 +179,11 @@ A menudo, las operaciones que desee realizar en la imagen modificarán los valor
 > 
 > Duplicar la imagen, con ambos canales
 
+###  Recorta tu imagen
+1. Utilice la herramienta de selección rectangular para definir la región
+2. **Image → Crop**
+3. Tu imagen se ha reducido al área seleccionada
+
 ### Ajustar el brillo y el contraste
 
 1. `Image > Adjust > Brightness/Contrast...`
@@ -205,7 +210,6 @@ Esta función se utiliza para hacer que las imágenes tenues sean más visibles 
 #### Exercise
 
 Why might you want to convert a 16-bit image to 8-bit? Consider factors like file size, processing speed, memory usage, and the type of analysis you plan to do. When would it be a bad idea?
-
 
 
 
@@ -246,38 +250,6 @@ Algunas de las imágenes de muestra ya incluyen lo que se denomina una composici
 2. Ajuste el brillo y el contraste para una mejor visualización.
 3. Vaya a `Image > Color > Make Composite`
 
-
-### Quick Measurements
-
-Choose any structure in your image.
-
-#### Plot Intensity Profile
-
-1. Click on **straight line button**
-2. Draw a line across your object of interest
-3. Go to `Analyze > Plot Profile`
-4. Displays intensity values along the line (useful for colocalization studies)
-
-![Line profile image](assets/line_profile_image.png)
-
-![Plot Profile image](assets/plot_profile.png)
-
-What happens if you right click on the straight line button?
-
-<--!
-Right clicking allows the user to choose the line width, which lets you draw the mean profile across the line with the chosen width.
--->
-
-#### Measure Intensity
-1. Select an ROI (Region of Interest) using selection tools
-2. **Analyze → Measure** (or `Ctrl+M`)
-3. Results include: Area, Mean intensity, Std Dev, Min, Max
-
-###  Crop
-1. Use rectangle selection tool to define region
-2. **Image → Crop**
-3. Image is reduced to selected area
-
 ###  Intensity Histogram
 1. Go to **Analyze → Histogram**
 2. Click on `Log`
@@ -287,6 +259,4 @@ What can you say about the histogram? Is it skewed to the left or right? What is
 <--!
 The histogram tells a lot about the image. In microscopy, most pixels correspond to the background, so a histogram skewed to the right points to a dark field, probably fluorescence microscopy image, while a histogram skewed to the left means that bright pixels are abundant and is likely to come from bright field. A maximum intensity of 255 or lower means that the bit-depth was probably 8-bit, while higher values means that bit-depth was higher. The minimum intensity also tells us something about the offset used and the risk of underexposing the acquisition.
 -->
-
----
 
