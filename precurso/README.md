@@ -8,19 +8,19 @@ Antes de iniciar el curso, es fundamental hablar el mismo idioma en cuanto a los
 
 [Digitalización de la imagen](https://www.youtube.com/watch?v=FPcSHpwuAYc)
 
-## Download FIJI
+## Descargar FIJI
 Fiji es una distribución de ImageJ preconfigurada con una amplia colección de plugins. Se distribuye como una versión portable (no requiere instalación formal, solo descomprimir). Descarga la versión adecuada para tu sistema operativo desde la página de descargas de Fiji.
 
-[Fiji download page](https://imagej.net/software/fiji/downloads)
+[Página Fiji](https://imagej.net/software/fiji/downloads)
 
-## Complete the conceptos básicos de FIJI ejercicios
-Follow the exercises below, in order to be comfortable opening an image, manipulating it and performing basics function on it using FIJI
+## Completar los ejercicios sobre conceptos básicos de FIJI 
+Sigue los ejercicios que aparecen a continuación para familiarizarse con la apertura y manipulación de imágenes, así como con la ejecución de funciones básicas en ellas utilizando FIJI.
 
 ---
 
 # Conceptos Básicos de FIJI
 
-## Table of Contents
+## Tabla de contenido
 - [Qué es FIJI?](#Qué-es-fiji)
 - [Primeros pasos con FIJI](#Primeros)
 - [Abrir y ver imágenes](#abrir-ver)
@@ -30,54 +30,54 @@ Follow the exercises below, in order to be comfortable opening an image, manipul
 
 ## Qué es FIJI?
 
-**Fiji** (Fiji Is Just ImageJ) is a free, open-source image processing and analysis platform built on top of ImageJ. It's widely used in scientific research, particularly in microscopy, medical imaging, and general image analysis.
+**Fiji** (Fiji Is Just ImageJ) es una plataforma gratuita de código abierto para el procesamiento y análisis de imágenes, desarrollada sobre la base de ImageJ. Se utiliza ampliamente en la investigación científica, especialmente en microscopía, imagenología médica y análisis general de imágenes.
 
-### Key Features
-- **User-friendly GUI** - No programming required for basic operations
-- **Pre-installed plugins** - Comes with a curated selection of image processing tools
-- **Extensible** - Can add additional plugins for specialized tasks
-- **Multi-format support** - Handles TIFF, JPEG, PNG, BMP, and many scientific formats
-- **Batch processing** - Automate workflows with macros
-- **Active community** - Extensive documentation and forum support
+### Características clave
+- **GUI fácil de usar** - No se requiere programación para operaciones básicas
+- **Plugins pre-instalados** - Viene con una selecciń seleccionada de herramientas de procesamiento de imágenes
+- **Ampliable** - Premite añadir complementos adicionales para tareas especializadas
+- **Compatibilidad con múltiples formatos** - admite TIFF, JPEG, PNG, BMP y numerosos formatos cientificos
+- **Batch processing** - Automatiza flujos de trabajo
+- **Comunidad activa** - Amplia documentación y soporte en foros
 
-### Common Use Cases
-- Microscopy image analysis
-- Segmentation and thresholding
-- Intensity measurements and statistics
-- Image registration and stitching
-- 3D image visualization
-- Time-series analysis
+### Casos de uso comunes
+- Análisis de imágenes de microscopía
+- Segmentación y thresholding
+- Mediciones de intensidad
+- registro y ensamblaje de imágenes
+- Visualización de imágenes en 3D
+- análisis de series temporales
 
 ---
 
-## Getting Started with Fiji
+## Primeros pasos con Fiji
 
-### Download and Installation
+### Descarga e instalación
 
 #### Windows, Mac, or Linux
 
-1. Visit the official Fiji website: https://fiji.sc/
-2. Click **"Download"** and select your operating system
-3. Extract the downloaded file to your preferred location (preferably somewhere admin rights are not required to modify files)
-4. Double-click `Fiji.exe` (Windows) or the Fiji application bundle to launch
+1. Visita el sitio web oficial de Fiji: https://fiji.sc/
+2. Haz clic en **"Download"** y seleccina tu sistema operativo.
+3. Extrae el archivo descargado en la ubicación que prefieras (preferiblemente en un lugar donde no se requieran permisos de administrador para modificar archivos)
+4. Haz doble clic en `Fiji.exe` (Windows) o en el paquete de la aplicación Fiji para iniciarla.
 
-**No additional installation required** - Fiji is portable and comes with Java bundled.
+**No se requiere insstalación adicional** - Fiji es una aplicación portátil e incluye java integrado.
 
-#### Verify Installation
+#### Verificar la instalación
 
-When you launch Fiji, you should see:
-- The main ImageJ window (toolbar with various tools)
-- A menu bar with **File**, **Edit**, **Image**, **Process**, **Analyze**, **Plugins**, **Window**, **Help**
+Al inicar Fiji, debería ver:
+- La ventana principal de ImageJ (barra de herramientas con diversas funciones)
+- Una barra de menús con **File**, **Edit**, **Image**, **Process**, **Analyze**, **Plugins**, **Window**, **Help**
 
 <img width="1060" height="166" alt="Precurso-1" src="https://github.com/user-attachments/assets/0397db79-3d2e-45c8-98d5-ac29fffe0d30" />
 
-### Setting Up Sample Data
+### preparación de los datos de muestra
 
-For this workshop, we recommend having sample images available. For the precurso material, please download the following image:
+Para este taller, recomendamos tener dispobibles imágenes de muestra. para el material previo al curso, por favor descargue la siguiente imagen:
 
 [precurso_planta.ome.tiff](https://drive.google.com/file/d/1Sl1uZi2EODIo9HyInZcIMZPMz8X3OxVQ/view?usp=drive_link)
 
-_NB you will need a google account to access this image. Please email us if you have any problems downloading this_
+_NB necisitará una cuenta de Google para acceder a esta imagen. por favor, eníenos un correo si tiene algún problema para descargarla_
 ---
 
 ## Opening and Viewing Images
