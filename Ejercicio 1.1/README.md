@@ -59,31 +59,44 @@ Para el análisis de bioimágenes es fundamental distinguir qué operaciones mod
 
 >¿Qué se ve en la imagen?
 
-3. Duplicar la imagén (`Image` → `Duplicate`)
-4. Dibujar una línea en la imagen y ver el perfil de intensidades (`Analyze` > `Plot profile`). Habilitar la opción `Live` del Plot profile y mover la línea para analizar diferentes partes de la imagen.
-5. Manipular el brillo y contraste (`Image` > `Adjust` > `Brightness/Contrast...`) de la visualización de la imagen para descubrir regiones no visibles de la imagen y elegir la «mejor imagen» a su criterio.
+3. Duplicar la imagén (`Image` → `Duplicate`), y dibujar una línea en la imagen y ver el perfil de intensidades (`Analyze` > `Plot profile`). Habilitar la opción `Live` del Plot profile y mover la línea para analizar diferentes partes de la imagen.
+4. Manipular el brillo y contraste (`Image` > `Adjust` > `Brightness/Contrast...`) de la visualización de la imagen para descubrir regiones no visibles de la imagen y elegir la «mejor imagen» a su criterio.
 Aparecerá una ventana emergente que le permitirá establecer los valores mínimo y máximo de gris, el brillo y el contraste. La opción `Auto` le proporcionará los ajustes que el software considera óptimos; aplica un contraste inteligente.
 >EJERCICIO
 >¿Qué se muestra en la región superior del cuadro de diálogo de B&C?
 >
 >La operación que se realiza es una transformación lineal representada por la recta que se muestra. Cuando se mueven los parámetros (minimum, maximum, brightness, contrast) se mueve la línea. Puede hacerlo para cada canal. ¿Qué representan estos parámetros de la transformación lineal?
 
-6. Si el botón `Auto` no produce un resultado deseable, utilice la herramienta de región de interés (ROI) para seleccionar una parte de la célula y algo de fondo, y haga clic en `Auto`. El ajuste de rango (stretch) se basará entonces en las intensidades de dicha región de interés.
+5. Si el botón `Auto` no produce un resultado deseable, utilice la herramienta de región de interés (ROI) para seleccionar una parte de la célula y algo de fondo, y haga clic en `Auto`. El ajuste de rango (stretch) se basará entonces en las intensidades de dicha región de interés.
 >Dibuja una forma y muévela por la imagen, pulsando «auto» en distintos puntos. ¿Cómo cambia la imagen?
 >
 >Pulsa «Reset» para mostrar la imagen tal como apareció inicialmente.
 >¿Esto sugiere que hemos modificado de forma permanente los valores de los píxeles, o que simplemente hemos cambiado su apariencia?
 
-7. El rango de visualización puede ajustarse manualmente mediante el botón `Set` y aplicarse a otras imágenes que tenga abiertas.
+6. El rango de visualización puede ajustarse manualmente mediante el botón `Set` y aplicarse a otras imágenes que tenga abiertas.
 >Duplicar la imagen, y cambiar el max y min para una de las dos.
 >Haz clic `Set` en una, y elige `Propaagate to all other open channels`.
 > Hacer clic `reset`. ¿Que pasa?
 
-8. Al pulsar el botón `Apply`, se modifican de forma permanente los valores de gris reales de la imagen. 
+7. Al pulsar el botón `Apply`, se modifican de forma permanente los valores de gris reales de la imagen. 
 >Duplicar la imagen, y comparar los histogramas de una imagen a la cual se le manipuló el brillo y contraste SIN poner APPLY con el de la misma imagen pero poniendo APPLY.
 Si está analizando la intensidad de la imagen, no pulse este botón.
-  
-9. 
+
+### Mejorar el contraste de la imagen
+
+La función de contraste mejorado (Enhance Contrast) en FIJI mejora el contraste de la imagen ajustando la distribución de las intensidades de los píxeles, con el fin de hacer que los objetos presentes en la imagen sean más distinguibles.
+
+1. Duplicar la imagen original y aplicar Enhance contrast (`Process` → `Enhance contrast` (sin las opciones Normalize ni Equalize). Varíe el porcentaje de píxeles saturados (típicamente se usa 0.3% o 0.4%).
+
+Este número define el porcentaje de píxeles atípicos a los que se permite alcanzar la saturación total (recortados a blanco o negro). Un valor como 0,35 evita que unos pocos valores extremos arruinen el ajuste del histograma. Aumentar este número incrementa el contraste.
+
+>¿Qué arriesgas al aumentar este número?
+
+2. Duplicar la imagen original y aplicar la normalización a la imagen original (`Process` → `Enhance contrast` → `Normalize`). Esto recalcula los valores de los píxeles de modo que todo el rango se ajuste al intervalo máximo posible para el tipo de imagen (por ejemplo, 0-255 para 8 bits, etc.).
+3. Duplicar la imagen original y aplicar la ecualización de histograma a la imagen original(`Process` → `Enhance contrast` → `Equalize`). Esta función transforma el histograma de la imagen de modo que los niveles de intensidad queden distribuidos de manera más uniforme a lo largo del rango dinámico. 
+
+>Comparar los histogramas de la imagen original y las imágenes obtenidas en las partes 3, 4, 5 y 6.
+>¿Cuál de los procedimientos anteriores (3, 4, 5 y 6) es reproducible?
 
 
 ## Utilizando LUTs como control de calidad y rango dinámico 
