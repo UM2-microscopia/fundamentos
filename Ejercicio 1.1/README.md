@@ -17,8 +17,8 @@ Un aspecto fundamental de lo que buscamos al realizar análisis de imágenes es 
 Una herramienta útil para lograr esto es la función «Record Macro» (grabar macro), disponible en FIJI. Esta herramienta no solo facilita la creación de macros, sino que también registra cada proceso que aplicamos a nuestras imágenes. Posteriormente, este registro puede exportarse y guardarse junto con los datos, permitiéndonos saber exactamente cómo han sido procesados.
 
 ###
-1. Open neuron image (`File` -> `Open Samples` -> `neuron`)
-2. open the record macro function (plugins Macros Record..)
+1. Abrir una imagen (`File` -> `Open Samples` -> `neuron`)
+2. Abre la función de grabación de macros (`Plugins` -> `Macros` -> `Record..`)
 
 >EJECICIO
 >
