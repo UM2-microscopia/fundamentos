@@ -48,7 +48,15 @@ Esto puede guardarse en este formato, o bien puedes utilizar este script para ej
 >2. Haz clic en `Run` en tu macro, dentro de la ventana `*.ijm`.
 >3. ¿Qué limitaciones observas al ejecutar macros de esta manera?
 
-# Control de Calidad y Rango Dinámico (Identificación de Píxeles Saturados y Sin Señal)
+## Histogramas
+
+
+
+## Utilizando ablas de consulta (LUTs) como control de calidad y rango dinámico 
+Tablas de consulta (Look Up Tables, LUTs) are the colour given to a specific range 
+
+(Identificación de Píxeles Saturados y Sin Señal)
+
 En esta práctica, utilizaremos tablas de consulta (LUTs) e histogramas para identificar problemas críticos de exposición como la saturación y la subexposición,  asegurando que las imágenes sean válidas para su posterior análisis.
 Atención: la presencia de píxeles con valores saturados o nulos es un defecto que no se puede corregir mediante el análisis de imágenes. 
 
