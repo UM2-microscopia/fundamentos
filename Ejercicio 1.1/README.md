@@ -9,6 +9,15 @@ Al finalizar la sesión, los alumnos serán capaces de:
 - Modificar brillo y contraste
 - Utilizar distintos LUTs para visualizar la imagen
 
+
+## Registrar procesos en FIJI
+
+A fundamental part of what we are trying to achieve when we perform image analysis is to make sure that any of our pipelines are reproducible, and can be replicated not only by ouorselves across our entire dataset, but also anyone else in the future. This is how we critically analyse whether or not we have confidence in the strength of our results. 
+
+A useful tool to help us achieve this is the 'Record Macro' tool, provided by FIJI. This can be used not only to help write macros, but to record every process that we run on our image. this can then be outputted and saved with our data, so that we know exactly how we have processed it. 
+
+
+
 # Control de Calidad y Rango Dinámico (Identificación de Píxeles Saturados y Sin Señal)
 En esta práctica, utilizaremos tablas de consulta (LUTs) e histogramas para identificar problemas críticos de exposición como la saturación y la subexposición,  asegurando que las imágenes sean válidas para su posterior análisis.
 Atención: la presencia de píxeles con valores saturados o nulos es un defecto que no se puede corregir mediante el análisis de imágenes. 
