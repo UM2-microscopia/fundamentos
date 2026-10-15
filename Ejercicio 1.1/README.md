@@ -109,28 +109,31 @@ Este número define el porcentaje de píxeles atípicos a los que se permite alc
 En esta práctica, utilizaremos tablas de consulta (LUTs) e histogramas para identificar problemas críticos de exposición como la saturación y la subexposición,  asegurando que las imágenes sean válidas para su posterior análisis.
 Atención: la presencia de píxeles con valores saturados o nulos es un defecto que no se puede corregir mediante el análisis de imágenes. 
 
-Tablas de consulta (Look Up Tables, LUTs) are an index that maps a specific colour to a given range of intensity values for each pixel. This means that what you see depends on how the colour gradients have been mapped. This could be a linear transition (e.g. Grays), a perceived linear brightness change (e.g. mpl-viridis or mpl-magenta) or it could be non-linear (e.g. JET).
->Why do you think that each of these different options might be preferable? 
+Las tablas de consulta (Look Up Tables, LUTs) constituyen un índice que asigna un color específico a un rango determinado de valores de intensidad para cada píxel. Esto significa que lo que se visualiza depende de cómo se hayan asignado los degradados de color. Dicha asignación puede consistir en una transición lineal (por ejemplo, escalas de grises), un cambio de brillo percibido como lineal (como en los casos de «mpl-viridis» o «mpl-magenta») o bien en una transición no lineal (por ejemplo, «JET»).
 
-Se propone usar las imágenes publicadas en https://zenodo.org/records/15374754
-Descargar las imágenes: 
-sequential.nd2:  imagen de dos canales obtenida en forma secuencial y en condiciones óptimas que llamaremos muestra_optima
-seq_underexposed.nd2  que llamaremos muestra_subexpuesta
-seq_saturated.nd2        muestra_saturada
+>EJERCICIO
+>
+>¿Por qué cree que cada una de estas distintas opciones podría ser preferible?
+>
+>Sin ninguna imagen abierta en FIJI, puedes visualizar la gradación de color de una LUT haciendo clic en el botón LUT de la barra de herramientas y seleccionando la LUT que desees. Debería aparecer una imagen a modo de escala de color.
 
-
-Paso 1: Inspección visual de los valores de intensidad de la imagen mediante LUT
-Abre las tres imágenes de prueba en Fiji (por ejemplo: muestra_subexpuesta.tif, muestra_saturada.tif y muestra_optima.tif).
-Para cada una de las imágenes, ve a Image > Lookup Tables y selecciona HiLo.
+### Inspección visual de los valores de intensidad de la imagen mediante LUT
+1. Abre las tres imágenes de prueba en Fiji (por ejemplo: muestra_subexpuesta.tif, muestra_saturada.tif y muestra_optima.tif).
+2. Para cada una de las imágenes, ve a `Image` → `Lookup Tables` → `HiLo`.
 La tabla de color (LUT) HiLo mostrará la imagen en escala de grises, pero pintará automáticamente de azul los píxeles que valgan exactamente 0 (sin señal) y de rojo puro los píxeles que alcancen el valor máximo del rango dinámico (saturados). 
-Observar las 3 imágenes en la escala HiLo y evaluar la presencia de píxeles sin señal o saturados. 
-Comentario: Además, el LUT HiLo, es muy útil para ajustar el contraste en forma precisa. Permite cambiar los valores de brillo y contraste sin saturar la imagen por accidente. 
-Como sugerencia ajuste en forma manual el brillo y contraste (pruebe cambiar valor mínimo y máximo, brillo y contraste)  de la imagen  muestra_optima.tif empleando el LUT HiLO.
+3. Observar las 3 imágenes en la escala HiLo y evaluar la presencia de píxeles sin señal o saturados. 
 
-Paso 2: Evaluación mediante el histograma de intensidad de los píxeles de una imagen. 
+Además, el LUT HiLo, es muy útil para ajustar el contraste en forma precisa. Permite cambiar los valores de brillo y contraste sin saturar la imagen por accidente. 
+
+>EJERCICIO
+>Ajuste en forma manual el brillo y contraste (pruebe cambiar valor mínimo y máximo, brillo y contraste)  de la imagen  muestra_optima.tif empleando el LUT HiLO.
+
+### Evaluación mediante el histograma de intensidad de los píxeles de una imagen. 
 El histograma es la herramienta gráfica fundamental para realizar el control de calidad de una imagen científica. Permite diagnosticar de un vistazo la exposición, el rango dinámico y la validez de los datos antes de realizar cualquier análisis. 
-Haz clic en la primera imagen (muestra_optima.tif) y presiona Ctrl + H (o ve a Analyze > Histogram). Este paso te permitirá observar el histograma de la intensidad de todos los píxeles de la imagen. Notar que entre otra información, podemos ver el valor mínimo y el máximo de intensidad.
-Repetir el proceso con la imagen subexpuesta (muestra_subexpuesta.tif) y  la imagen saturada (muestra_saturada.tif).
-Observar cada histograma y compararlos, en particular prestar atención a sus valores extremos. 
+
+1. Haz clic en la primera imagen (muestra_optima.tif) y presiona `Ctrl` + `H`. Este paso te permitirá observar el histograma de la intensidad de todos los píxeles de la imagen. Notar que entre otra información, podemos ver el valor mínimo y el máximo de intensidad.
+2. Repetir el proceso con la imagen subexpuesta (muestra_subexpuesta.tif) y  la imagen saturada (muestra_saturada.tif).
+3. Observar cada histograma y compararlos, en particular prestar atención a sus valores extremos. 
+
 Si el histograma presenta píxeles con intensidad 0, significa que se ha perdido la información de esos píxeles por falta de señal. Por otro lado, si existen píxeles con el valor máximo de la escala según la profundidad de bits (por ejemplo, 255 en 8 bits o 65 535 en 16 bits), entonces esas zonas están saturadas y tampoco ofrecen información cuantitativa confiable.  
 
