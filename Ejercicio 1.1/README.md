@@ -63,10 +63,10 @@ Para el análisis de bioimágenes es fundamental distinguir qué operaciones mod
 4. Dibujar una línea en la imagen y ver el perfil de intensidades (`Analyze` > `Plot profile`). Habilitar la opción `Live` del Plot profile y mover la línea para analizar diferentes partes de la imagen.
 5. Manipular el brillo y contraste (`Image` > `Adjust` > `Brightness/Contrast...`) de la visualización de la imagen para descubrir regiones no visibles de la imagen y elegir la «mejor imagen» a su criterio.
 Aparecerá una ventana emergente que le permitirá establecer los valores mínimo y máximo de gris, el brillo y el contraste. La opción `Auto` le proporcionará los ajustes que el software considera óptimos; aplica un contraste inteligente.
-
+>EJERCICIO
 >¿Qué se muestra en la región superior del cuadro de diálogo de B&C?
 >
->La operación que se realiza es una transformación lineal representada por la recta que se muestra. Cuando se mueven los parámetros (minimum, maximum, brightness, contrast) se mueve la línea. ¿Qué representan estos parámetros de la transformación lineal?
+>La operación que se realiza es una transformación lineal representada por la recta que se muestra. Cuando se mueven los parámetros (minimum, maximum, brightness, contrast) se mueve la línea. Puede hacerlo para cada canal. ¿Qué representan estos parámetros de la transformación lineal?
 
 6. Si el botón `Auto` no produce un resultado deseable, utilice la herramienta de región de interés (ROI) para seleccionar una parte de la célula y algo de fondo, y haga clic en `Auto`. El ajuste de rango (stretch) se basará entonces en las intensidades de dicha región de interés.
 >Dibuja una forma y muévela por la imagen, pulsando «auto» en distintos puntos. ¿Cómo cambia la imagen?
@@ -74,13 +74,15 @@ Aparecerá una ventana emergente que le permitirá establecer los valores mínim
 >Pulsa «Reset» para mostrar la imagen tal como apareció inicialmente.
 >¿Esto sugiere que hemos modificado de forma permanente los valores de los píxeles, o que simplemente hemos cambiado su apariencia?
 
-7. You can further modify the values by moving the bars. This can be done each channel separately.
-8. Duplicar la imagen, y comparar los histogramas de una imagen a la cual se le manipuló el brillo y contraste SIN poner APPLY con el de la misma imagen pero poniendo APPLY. 
-  
-  
-7. The true values from 0-255 (8-bit images) or 4095 (12-bit images) can be set manually from Set button.
-8. Remember to consider if you want to click Apply. Pressing the Apply button permanently changes the actual
+7. El rango de visualización puede ajustarse manualmente mediante el botón `Set` y aplicarse a otras imágenes que tenga abiertas.
+>Duplicar la imagen, y cambiar el max y min para una de las dos.
+>Haz clic `Set` en una, y elige `Propaagate to all other open channels`.
+> Hacer clic `reset`. ¿Que pasa?
+
+8. Pressing the Apply button permanently changes the actual
 grey values of the image. If you are analyzing image intensity do not press this button.
+>Duplicar la imagen, y comparar los histogramas de una imagen a la cual se le manipuló el brillo y contraste SIN poner APPLY con el de la misma imagen pero poniendo APPLY. 
+  
 
 
 
