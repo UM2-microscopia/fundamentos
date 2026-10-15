@@ -12,11 +12,19 @@ Al finalizar la sesión, los alumnos serán capaces de:
 
 ## Registrar procesos en FIJI
 
-A fundamental part of what we are trying to achieve when we perform image analysis is to make sure that any of our pipelines are reproducible, and can be replicated not only by ouorselves across our entire dataset, but also anyone else in the future. This is how we critically analyse whether or not we have confidence in the strength of our results. 
+Un aspecto fundamental de lo que buscamos al realizar análisis de imágenes es garantizar que nuestros flujos de trabajo sean reproducibles; es decir, que puedan ser replicados tanto por nosotros mismos en todo nuestro conjunto de datos como por cualquier otra persona en el futuro. Conocer los pasos de procesamiento seguidos nos permite evaluar de manera crítica si podemos confiar en la solidez de nuestros resultados.
 
-A useful tool to help us achieve this is the 'Record Macro' tool, provided by FIJI. This can be used not only to help write macros, but to record every process that we run on our image. this can then be outputted and saved with our data, so that we know exactly how we have processed it. 
+Una herramienta útil para lograr esto es la función «Record Macro» (grabar macro), disponible en FIJI. Esta herramienta no solo facilita la creación de macros, sino que también registra cada proceso que aplicamos a nuestras imágenes. Posteriormente, este registro puede exportarse y guardarse junto con los datos, permitiéndonos saber exactamente cómo han sido procesados.
 
+###
+1. Open neuron image (file open samples neuron)
+2. open the record macro function (plugins Macros Record..)
 
+>EJECICIO
+>
+>Observa la ventana de 'Recorder' mientras realizas los siguientes procesos que se abordaron en el material previo al curso:
+>Duplica la imagen, separa los canales en imágenes independientes, selecciona el canal azul y cambia la profundidad de bits a 8 bits, selecciona el canal verde y cambia la LUT, y vuelve a combinar los canales verde y rojo.
+>¿Qué procesos está registrando y cuáles no está registrando?
 
 # Control de Calidad y Rango Dinámico (Identificación de Píxeles Saturados y Sin Señal)
 En esta práctica, utilizaremos tablas de consulta (LUTs) e histogramas para identificar problemas críticos de exposición como la saturación y la subexposición,  asegurando que las imágenes sean válidas para su posterior análisis.
