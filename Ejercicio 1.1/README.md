@@ -16,15 +16,37 @@ Un aspecto fundamental de lo que buscamos al realizar análisis de imágenes es 
 
 Una herramienta útil para lograr esto es la función «Record Macro» (grabar macro), disponible en FIJI. Esta herramienta no solo facilita la creación de macros, sino que también registra cada proceso que aplicamos a nuestras imágenes. Posteriormente, este registro puede exportarse y guardarse junto con los datos, permitiéndonos saber exactamente cómo han sido procesados.
 
-###
-1. Abrir una imagen (`File` -> `Open Samples` -> `neuron`)
-2. Abre la función de grabación de macros (`Plugins` -> `Macros` -> `Record..`)
+### Preparación de la grabación
+1. Abrir una imagen (`File` → `Open Samples` → `neuron`)
+2. Abre la función de grabación de macros (`Plugins` → `Macros` → `Record..`)
+3. Puede cambiar la lenguaje del script, y cambiar el nombre del archivo. 
+
+<img width="906" height="477" alt="E1-1_1" src="https://github.com/user-attachments/assets/37e21419-a36a-40d9-8d08-ace3f7fdcddb" />
 
 >EJECICIO
 >
 >Observa la ventana de 'Recorder' mientras realizas los siguientes procesos que se abordaron en el material previo al curso:
->Duplica la imagen, separa los canales en imágenes independientes, selecciona el canal azul y cambia la profundidad de bits a 8 bits, selecciona el canal verde y cambia la LUT, y vuelve a combinar los canales verde y rojo.
->¿Qué procesos está registrando y cuáles no está registrando?
+>1. Duplica la imagen
+>2. separa los canales en imágenes independientes
+>3. selecciona el canal azul y cambia la profundidad de bits a 8 bits
+>4. selecciona el canal verde y cambia la LUT
+>5. vuelve a combinar los canales verde y rojo
+>   
+>¿Qué procesos está registrando y cuáles no está registrando? ¿En qué punto de tu flujo de trabajo de procesamiento de imágenes podría interesarte grabar una macro?
+
+### Guardando tus procesos
+
+Para guardar tus procesos, haz clic en el botón `Create` en la barra de herramientas de la ventana `Recorder`. Esto generará un archivo *.ijm que contendrá todos tus procesos traducidos al lenguaje de macros de FIJI.
+
+<img width="875" height="790" alt="E1-1_2" src="https://github.com/user-attachments/assets/718a79be-b3f9-4b08-a962-278e0f2314c9" />
+
+Esto puede guardarse en este formato, o bien puedes utilizar este script para ejecutar los mismos procesos en cualquier imagen posterior que abras.
+
+>EJERCICIO
+>
+>1. Cierra todas las ventanas de imagen que tuvieras abiertas y vuelve a abrir la imagen de la neurona.
+>2. Haz clic en `Run` en tu macro, dentro de la ventana `*.ijm`.
+>3. ¿Qué limitaciones observas al ejecutar macros de esta manera?
 
 # Control de Calidad y Rango Dinámico (Identificación de Píxeles Saturados y Sin Señal)
 En esta práctica, utilizaremos tablas de consulta (LUTs) e histogramas para identificar problemas críticos de exposición como la saturación y la subexposición,  asegurando que las imágenes sean válidas para su posterior análisis.
