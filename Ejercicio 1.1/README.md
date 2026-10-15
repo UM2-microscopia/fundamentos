@@ -79,11 +79,11 @@ Aparecerá una ventana emergente que le permitirá establecer los valores mínim
 >Haz clic `Set` en una, y elige `Propaagate to all other open channels`.
 > Hacer clic `reset`. ¿Que pasa?
 
-8. Pressing the Apply button permanently changes the actual
-grey values of the image. If you are analyzing image intensity do not press this button.
->Duplicar la imagen, y comparar los histogramas de una imagen a la cual se le manipuló el brillo y contraste SIN poner APPLY con el de la misma imagen pero poniendo APPLY. 
+8. Al pulsar el botón `Apply`, se modifican de forma permanente los valores de gris reales de la imagen. 
+>Duplicar la imagen, y comparar los histogramas de una imagen a la cual se le manipuló el brillo y contraste SIN poner APPLY con el de la misma imagen pero poniendo APPLY.
+Si está analizando la intensidad de la imagen, no pulse este botón.
   
-
+9. 
 
 
 ## Utilizando LUTs como control de calidad y rango dinámico 
