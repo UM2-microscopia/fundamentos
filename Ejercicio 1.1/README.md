@@ -105,21 +105,18 @@ Este número define el porcentaje de píxeles atípicos a los que se permite alc
 
 
 ## Utilizando LUTs como control de calidad y rango dinámico 
-Tablas de consulta (Look Up Tables, LUTs) are the colour given to a specific range 
-
-(Identificación de Píxeles Saturados y Sin Señal)
 
 En esta práctica, utilizaremos tablas de consulta (LUTs) e histogramas para identificar problemas críticos de exposición como la saturación y la subexposición,  asegurando que las imágenes sean válidas para su posterior análisis.
 Atención: la presencia de píxeles con valores saturados o nulos es un defecto que no se puede corregir mediante el análisis de imágenes. 
+
+Tablas de consulta (Look Up Tables, LUTs) are an index that maps a specific colour to a given range of intensity values for each pixel. This means that what you see depends on how the colour gradients have been mapped. This could be a linear transition (e.g. Grays), a perceived linear brightness change (e.g. mpl-viridis or mpl-magenta) or it could be non-linear (e.g. JET).
+>Why do you think that each of these different options might be preferable? 
 
 Se propone usar las imágenes publicadas en https://zenodo.org/records/15374754
 Descargar las imágenes: 
 sequential.nd2:  imagen de dos canales obtenida en forma secuencial y en condiciones óptimas que llamaremos muestra_optima
 seq_underexposed.nd2  que llamaremos muestra_subexpuesta
 seq_saturated.nd2        muestra_saturada
-
-Paso 1: Documentar procesos
-
 
 
 Paso 1: Inspección visual de los valores de intensidad de la imagen mediante LUT
@@ -137,23 +134,3 @@ Repetir el proceso con la imagen subexpuesta (muestra_subexpuesta.tif) y  la ima
 Observar cada histograma y compararlos, en particular prestar atención a sus valores extremos. 
 Si el histograma presenta píxeles con intensidad 0, significa que se ha perdido la información de esos píxeles por falta de señal. Por otro lado, si existen píxeles con el valor máximo de la escala según la profundidad de bits (por ejemplo, 255 en 8 bits o 65 535 en 16 bits), entonces esas zonas están saturadas y tampoco ofrecen información cuantitativa confiable.  
 
-
-
-PARTE 2 -Manejo de brillo, contraste y ecualización de histograma
-
-Para el análisis de bioimágenes es fundamental distinguir qué operaciones modifican los valores de intensidad de los píxeles de aquellas que solo alteran su visualización. El siguiente ejercicio está pensado para utilizar las herramientas de contraste de forma segura.
-Abrir la imágen M51.tif de ImageJ/Fiji. 
-File  > Open Samples buscar la imagen  M51.tif 
-¿Qué se ve en la imagen? Inspeccionar su histograma (Analyze > Histogram ).
- Duplicar la imagen  (Image > Duplicate ).
-Dibujar una línea en la imagen y ver el perfil de intensidades (Analyze > Plot profile). Habilitar la opción «Live» del Plot profile y mover la línea para analizar diferentes partes de la imagen.
-Manipular el brillo y contraste (Image > Adjust > Brightness/Contrast...) de la visualización de la imagen para descubrir regiones no visibles de la imagen y elegir la «mejor imagen» a su criterio.
-¿Qué se muestra en la región superior del cuadro de diálogo de B&C?
-La operación que se realiza es una transformación lineal representada por la recta que se muestra. Cuando se mueven los parámetros (minimum, maximum, brightness, contrast) se mueve la línea. ¿Qué representan estos parámetros de la transformación lineal?
-Duplicar la imagen original y aplicar Enhance contrast (Process > Enhance contrast (sin las opciones Normalize ni Equalize). Varíe el porcentaje de píxeles saturados (típicamente se usa 0.3% o 0.4%). 
-Duplicar la imagen original y aplicar la normalización a la imagen original (Process > Enhance contrast  opción Normalize)
- Duplicar la imagen original y aplicar la ecualización de histograma a la imagen original(Process > Enhance contrast opción Equalize)
-Comparar los histogramas de la imagen original y las imágenes obtenidas en las partes 3, 4,  5 y 6.
-¿Cuál de los procedimientos anteriores (3, 4, 5 y 6) es reproducible?
-
-Adicional:  Compare los histogramas de una imagen a la cual se le manipuló el brillo y contraste SIN poner APPLY con el de la misma imagen pero poniendo APPLY. 
