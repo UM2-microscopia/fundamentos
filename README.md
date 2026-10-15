@@ -14,7 +14,7 @@ Asimismo, se ofrecen talleres más avanzados para usuarios con mayor experiencia
 
 ## Preparación
 
-1. Realiza las actividades requeridas en la sección «Precursor»
+1. Realiza las actividades requeridas en la sección «Precurso»
 2. Trae un ordenador portátil (y su cargador)
 
 
