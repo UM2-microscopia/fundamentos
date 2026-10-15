@@ -62,6 +62,9 @@ Para el análisis de bioimágenes es fundamental distinguir qué operaciones mod
 3. Duplicar la imagén (`Image` → `Duplicate`), y dibujar una línea en la imagen y ver el perfil de intensidades (`Analyze` > `Plot profile`). Habilitar la opción `Live` del Plot profile y mover la línea para analizar diferentes partes de la imagen.
 4. Manipular el brillo y contraste (`Image` > `Adjust` > `Brightness/Contrast...`) de la visualización de la imagen para descubrir regiones no visibles de la imagen y elegir la «mejor imagen» a su criterio.
 Aparecerá una ventana emergente que le permitirá establecer los valores mínimo y máximo de gris, el brillo y el contraste. La opción `Auto` le proporcionará los ajustes que el software considera óptimos; aplica un contraste inteligente.
+
+<img width="763" height="498" alt="Ej1-1_3" src="https://github.com/user-attachments/assets/7b3fa939-0f79-46f3-aace-59a99ab782e6" />
+
 >EJERCICIO
 >¿Qué se muestra en la región superior del cuadro de diálogo de B&C?
 >
@@ -87,6 +90,8 @@ Si está analizando la intensidad de la imagen, no pulse este botón.
 La función de contraste mejorado (Enhance Contrast) en FIJI mejora el contraste de la imagen ajustando la distribución de las intensidades de los píxeles, con el fin de hacer que los objetos presentes en la imagen sean más distinguibles.
 
 1. Duplicar la imagen original y aplicar Enhance contrast (`Process` → `Enhance contrast` (sin las opciones Normalize ni Equalize). Varíe el porcentaje de píxeles saturados (típicamente se usa 0.3% o 0.4%).
+
+<img width="345" height="245" alt="Ej1-1_4" src="https://github.com/user-attachments/assets/edf3b56b-fec4-44cf-a2a0-9941e5cf2787" />
 
 Este número define el porcentaje de píxeles atípicos a los que se permite alcanzar la saturación total (recortados a blanco o negro). Un valor como 0,35 evita que unos pocos valores extremos arruinen el ajuste del histograma. Aumentar este número incrementa el contraste.
 
