@@ -1,4 +1,3 @@
-<img width="790" height="676" alt="Ej144" src="https://github.com/user-attachments/assets/db8db007-4b89-4e32-8f6c-a3a29d2daf9e" />
 # Parte 1: Procesamiento y análisis de imágenes 2D
 
 ## Ejercicio 1.4: Objetivos de Aprendizaje
