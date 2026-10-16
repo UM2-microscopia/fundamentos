@@ -72,6 +72,7 @@ Este método para medir la longitud de un objeto resulta útil para una consulta
 1. Para obtener un valor de la longitud de la línea, la forma más sencilla es pulsar la tecla `m` en el teclado.
 4. Aparecerá una ventana nueva que muestra diversas formas en las que se ha cuantificado dicha línea.
 3. Estas son las mediciones estándar, pero pueden personalizarse a través de `Results` → `Set Measurements`, donde es posible seleccionar las mediciones que se desea realizar.
+4. Los resultados de esta tabla se pueden resaltar, copiar y pegar, o se pueden guardar directamente desde esa ventana usando `File` → `Save as`. 
 
 <img width="790" height="676" alt="Ej144" src="https://github.com/user-attachments/assets/b7e94c28-6eff-44a0-9a99-9f55d3256f34" />
 
@@ -82,9 +83,8 @@ Este método para medir la longitud de un objeto resulta útil para una consulta
 >¿Cuáles son las ventajas y las limitaciones de realizar mediciones de esta manera?
 
 ## Regions of Interest
-A lot of the time, the types of quantitative measurements that you will want to make will be areas instead of lines, therefore we need to you a tool other than the line. 
-1. The circle button on the FIJI toolbar can be used to draw circles.
-2. This has a red down-turned arrow, so the drawing shape can be changed
-
-- Realizar mediciones sencillas mediante el gestor de regiones de interés (ROI manager)
+A menudo, los tipos de mediciones cuantitativas que querrás realizar corresponderán a áreas en lugar de líneas; por lo tanto, necesitamos utilizar una herramienta distinta a la línea.
+1. El botón con forma de círculo en la barra de herramientas de FIJI permite dibujar círculos.
+2. Este botón presenta una flecha roja orientada hacia abajo, lo que permite cambiar la forma de dibujo.
+3. Las mediciones realizadas con estas herramientas también pueden recopilarse en la tabla de resultados (Results table).
 
