@@ -67,7 +67,8 @@ Un perfil de línea nos indica los valores de intensidad de cada uno de los píx
 3. Dibuja una línea recta a lo largo del diámetro del núcleo situado en el centro de la imagen, observando la barra de herramientas principal de FIJI mientras lo haces.
 4. Deberías ver la longitud de la línea, así como el ángulo respecto a la posición inicial y las coordenadas de la línea.
 
-![Ej14-3](https://github.com/user-attachments/assets/0810c8a8-450c-4e95-8eb4-0728c0e16e99)
+![Ej14-3](https://github.com/user-attachments/assets/f60db47a-7262-479c-989d-ea51616282cb)
+
 
 
 Este método para medir la longitud de un objeto resulta útil para una consulta rápida, pero no es adecuado para realizar mediciones precisas; sobre todo porque el valor desaparece en cuanto se aleja el puntero del ratón del punto final de la línea, y no vuelve a aparecer.
