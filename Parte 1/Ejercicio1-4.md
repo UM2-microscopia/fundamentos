@@ -23,12 +23,13 @@ Existen 2 formas sencillas de comprobar los valores xy asignados a cada píxel:
 
 >EJERCICIO
 >
->Open an image that hasn't get any values assigned to it
->you know that the pixel size of your camera is XXXum.
->Check the metadata for the image to determine which Objective lens was used to acquire this image
+>Abrir 'NoScale.tif' de la carpeta Precurso.
+>Comprueba el tamaño del píxel en las propiedades de la imagen.
 The pixel size can be calculated using the following formula:
-     image pixel size = camera pixel size (um) / magnification 
->Calculate the pixel size for this image and assign it to the image using one of the methods outlined above. 
+     Image pixel size (um) = camera pixel size (um) / magnification 
+>Sabe que el tamaño de píxel de su cámara es 5.3um, y la imagen sse adquirió utilizando un objecetivo 40X.
+>
+>Calcula el tamaño en píxeles de esta imagen y asígnalo a la imagen utilizando uno de los métodos descritos anteriormente.
 
 ## Region of Interest
 
