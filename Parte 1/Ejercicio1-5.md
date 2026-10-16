@@ -11,7 +11,7 @@ Al finalizar la sesión, los alumnos serán capaces de:
 
 Choose any structure in your image.
 
-1. Click ono the 'straight line' button in the FIJI toolbar
+1. Click on the 'straight line' button in the FIJI toolbar
 2. Draw a line across your object of interest
 3. Go to analyse - plot profile
 4. Displays intensity valyes along the line
