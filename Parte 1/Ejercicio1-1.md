@@ -118,15 +118,17 @@ Las tablas de consulta (Look Up Tables, LUTs) constituyen un índice que asigna 
 >Sin ninguna imagen abierta en FIJI, puedes visualizar la gradación de color de una LUT haciendo clic en el botón LUT de la barra de herramientas y seleccionando la LUT que desees. Debería aparecer una imagen a modo de escala de color.
 
 ### Inspección visual de los valores de intensidad de la imagen mediante LUT
-1. Abre las tres imágenes de prueba en Fiji (por ejemplo: muestra_subexpuesta.tif, muestra_saturada.tif y muestra_optima.tif).
-2. Para cada una de las imágenes, ve a `Image` → `Lookup Tables` → `HiLo`.
+1. Abre las tres imágenes de prueba en Fiji: [muestra_subexpuesta.tif]([url](https://drive.google.com/file/d/1TKVFiefZd1sp4zQctDKLrpazxOhDfCsS/view?usp=drive_link)), [muestra_saturada.tif]([url](https://drive.google.com/file/d/10LzEUs3XRU8-Hl-dXqPdN9bqNUTAorTg/view?usp=drive_link)) y [muestra_optima.tif]([url](https://drive.google.com/file/d/1acOWchnleQrushLwOTc5MTeo2A18AJqx/view?usp=drive_link)).
+2. Para cada una de las imágenes, para cada canal, ve a `Image` → `Lookup Tables` → `HiLo`.
 La tabla de color (LUT) HiLo mostrará la imagen en escala de grises, pero pintará automáticamente de azul los píxeles que valgan exactamente 0 (sin señal) y de rojo puro los píxeles que alcancen el valor máximo del rango dinámico (saturados). 
-3. Observar las 3 imágenes en la escala HiLo y evaluar la presencia de píxeles sin señal o saturados. 
+3. Observar las 3 imágenes en la escala HiLo y evaluar la presencia de píxeles sin señal o saturados.
+
+>¿Por qué no se deben adquirir imágenes que incluyan píxeles con valores nulos o saturados?
 
 Además, el LUT HiLo, es muy útil para ajustar el contraste en forma precisa. Permite cambiar los valores de brillo y contraste sin saturar la imagen por accidente. 
 
 >EJERCICIO
->Ajuste en forma manual el brillo y contraste (pruebe cambiar valor mínimo y máximo, brillo y contraste)  de la imagen  muestra_optima.tif empleando el LUT HiLO.
+>Ajuste en forma manual el brillo y contraste (pruebe cambiar valor mínimo y máximo, brillo y contraste) de la imagen muestra_optima.tif empleando el LUT HiLO.
 
 ### Evaluación mediante el histograma de intensidad de los píxeles de una imagen. 
 El histograma es la herramienta gráfica fundamental para realizar el control de calidad de una imagen científica. Permite diagnosticar de un vistazo la exposición, el rango dinámico y la validez de los datos antes de realizar cualquier análisis. 
