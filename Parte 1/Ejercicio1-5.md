@@ -4,8 +4,8 @@
 
 Al finalizar la sesión, los alumnos serán capaces de:
 
-- Medir longitud
-- Crear perfiles de longitud
-
+- Using ROIs to:
+- Measure Intensities
+- measuring something in other channels using the masks
 
 
