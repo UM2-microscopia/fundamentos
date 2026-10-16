@@ -1,3 +1,4 @@
+<img width="790" height="676" alt="Ej144" src="https://github.com/user-attachments/assets/db8db007-4b89-4e32-8f6c-a3a29d2daf9e" />
 # Parte 1: Procesamiento y análisis de imágenes 2D
 
 ## Ejercicio 1.4: Objetivos de Aprendizaje
@@ -71,18 +72,17 @@ Un perfil de línea nos indica los valores de intensidad de cada uno de los píx
 
 Este método para medir la longitud de un objeto resulta útil para una consulta rápida, pero no es adecuado para realizar mediciones precisas; sobre todo porque el valor desaparece en cuanto se aleja el puntero del ratón del punto final de la línea, y no vuelve a aparecer.
 
-1. To generate a value for the length of your line, easiest tool is just to click `m` on the keyboard.
-2. A new window appears, showing a variety of ways that this line has been quantified.
+1. Para obtener un valor de la longitud de la línea, la forma más sencilla es pulsar la tecla `m` en el teclado.
+4. Aparecerá una ventana nueva que muestra diversas formas en las que se ha cuantificado dicha línea.
+3. Estas son las mediciones estándar, pero pueden personalizarse a través de `Results` → `Set Measurements`, donde es posible seleccionar las mediciones que se desea realizar.
 
-
-   
-3. These are the standard measurements, but they can be tailored by `Results` → `Set Measurements` where you can choose the measurements that you want to take. 
+<img width="1056" height="642" alt="Ej143" src="https://github.com/user-attachments/assets/bd6dc88b-2af2-45f0-a1f0-7336b1f1e303" />
 
 >EJERCICIO
 >
->Measure the same object by hand 5 times. Taking a measurement each time. Do this for 3 objects. What is the standard deviation between the objects by hand
->What are the strengths and limitations of making measurements this way?
-
+>Elige un objeto de una de las imágenes para medirlo. Mide el mismo objeto 5 veces de forma manual, realizando una medición cada vez.
+>¿Qué grado de variación observas entre las longitudes medidas?
+>¿Cuáles son las ventajas y las limitaciones de realizar mediciones de esta manera?
 
 ## Regions of Interest
 A lot of the time, the types of quantitative measurements that you will want to make will be areas, therefore we need to you a tool other than the line. We can do this using the circle tool, using the other shapes. 
