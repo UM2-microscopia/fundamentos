@@ -4,6 +4,7 @@
 
 Al finalizar la sesión, los alumnos serán capaces de:
 
+- Calcular y cambiar el tamaño del pixel de una imagen 
 - Trabajar con RoI
 - Crear mascaras
 - Medir cosas en otros canales
