@@ -58,6 +58,7 @@ Un perfil de línea nos indica los valores de intensidad de cada uno de los píx
 >Modifica las propiedades del gráfico experimentando con el botón `More>>`.
 >Cambia el perfil de línea a `Freehand Line` (línea a mano alzada), dibuja una forma y genera un perfil de línea.
 >¿Qué problemas de reproducibilidad podrían surgir al utilizar estas herramientas?
+>Prueba a abrir la imagen de la neurona con los 5 canales, traza una línea, genera un perfil y configúralo en modo en `live`). Alterna entre los >canales y observa qué sucede.
 
 ### Medir longitud
 
