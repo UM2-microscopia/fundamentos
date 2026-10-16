@@ -7,8 +7,6 @@ Al finalizar la sesión, los alumnos serán capaces de:
 - Calcular y cambiar el tamaño del pixel de una imagen 
 - Trazar una línea y generar un perfil de línea
 - Crear una región de interés
-- Realizar mediciones sencillas mediante el gestor de regiones de interés (ROI manager)
-
 
 ## Tamaño del pixel
 En este ejercicio, comenzaremos a extraer información cuantitativa a partir de las imágenes. Antes de proceder, debemos verificar si FIJI ha reconocido correctamente el tamaño del píxel. Cuando se trabaja con archivos obtenidos mediante software propietario de fabricantes de microscopios consolidados (ZEISS o Leica, por ejemplo), es muy probable que dichos archivos incluyan metadatos que FIJI pueda leer fácilmente, de modo que el tamaño del píxel ya sea el correcto. Sin embargo, en el caso de sistemas de fabricación propia, equipos antiguos o sistemas adaptados que utilizan software de adquisición de código abierto (por ejemplo, Micro-Manager), es probable que debas indicar a FIJI cuál es el tamaño del píxel con el que estás trabajando. Siempre es conveniente comprobar que estas cifras tengan sentido antes de realizar cualquier cálculo, por si se hubiera producido algún error al leer los metadatos.
@@ -88,17 +86,5 @@ A lot of the time, the types of quantitative measurements that you will want to 
 1. The circle button on the FIJI toolbar can be used to draw circles.
 2. This has a red down-turned arrow, so the drawing shape can be changed
 
-To make measurements more reprodicible you can save the shape and it's location in a 'Region of Interest manager'
-1. Abrir la imagen FluorescentCells (`File` → `Open Samples` → `FluorescentCells.tif`)
-2. `Analyze` → `Tools` → `ROI Manager..`
-3. Use one of the tools to draw a region of interest around one of the nuclei, and press 'add' on the ROI manager box
-4. Do the same for the second nuclei in the image. 
-
->EJERCICIO
->
->
-
-To save a measurement shapes, you need to use the Region of Interest (ROI) manager. This is a very powerful tool that allows you to 
-
-
+- Realizar mediciones sencillas mediante el gestor de regiones de interés (ROI manager)
 
