@@ -8,11 +8,14 @@ Al finalizar la sesión, los alumnos serán capaces de:
 - Crear mascaras
 - Medir cosas en otros canales
 
+## Pixel size
+En este ejercicio, comenzaremos a extraer información cuantitativa a partir de las imágenes. Antes de proceder, debemos verificar si FIJI ha reconocido correctamente el tamaño del píxel. Cuando se trabaja con archivos obtenidos mediante software propietario de fabricantes de microscopios consolidados (ZEISS o Leica, por ejemplo), es muy probable que dichos archivos incluyan metadatos que FIJI pueda leer fácilmente, de modo que el tamaño del píxel ya sea el correcto. Sin embargo, en el caso de sistemas de fabricación propia, equipos antiguos o sistemas adaptados que utilizan software de adquisición de código abierto (por ejemplo, Micro-Manager), es probable que debas indicar a FIJI cuál es el tamaño del píxel con el que estás trabajando. 
+
+1. open Neuron
+
 ## Region of Interest
 
-Un aspecto fundamental de lo que buscamos al realizar análisis de imágenes es garantizar que nuestros flujos de trabajo sean reproducibles; es decir, que puedan ser replicados tanto por nosotros mismos en todo nuestro conjunto de datos como por cualquier otra persona en el futuro. Conocer los pasos de procesamiento seguidos nos permite evaluar de manera crítica si podemos confiar en la solidez de nuestros resultados.
 
-Una herramienta útil para lograr esto es la función «Record Macro» (grabar macro), disponible en FIJI. Esta herramienta no solo facilita la creación de macros, sino que también registra cada proceso que aplicamos a nuestras imágenes. Posteriormente, este registro puede exportarse y guardarse junto con los datos, permitiéndonos saber exactamente cómo han sido procesados.
 
 ### Preparación de la grabación
 1. Abrir una imagen (`File` → `Open Samples` → `neuron`)
