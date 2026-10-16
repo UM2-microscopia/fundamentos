@@ -118,7 +118,7 @@ Las tablas de consulta (Look Up Tables, LUTs) constituyen un índice que asigna 
 >Sin ninguna imagen abierta en FIJI, puedes visualizar la gradación de color de una LUT haciendo clic en el botón LUT de la barra de herramientas y seleccionando la LUT que desees. Debería aparecer una imagen a modo de escala de color.
 
 ### Inspección visual de los valores de intensidad de la imagen mediante LUT
-1. Abre las tres imágenes de prueba en Fiji: [muestra_subexpuesta.tif]([url](https://drive.google.com/file/d/1TKVFiefZd1sp4zQctDKLrpazxOhDfCsS/view?usp=drive_link)), [muestra_saturada.tif]([url](https://drive.google.com/file/d/10LzEUs3XRU8-Hl-dXqPdN9bqNUTAorTg/view?usp=drive_link)) y [muestra_optima.tif](Precurso/muestra_optima.tif).
+1. Abre las tres imágenes de prueba en Fiji: [muestra_subexpuesta.tif]([url](https://drive.google.com/file/d/1TKVFiefZd1sp4zQctDKLrpazxOhDfCsS/view?usp=drive_link)), [muestra_saturada.tif]([url](https://drive.google.com/file/d/10LzEUs3XRU8-Hl-dXqPdN9bqNUTAorTg/view?usp=drive_link)) y [muestra_optima]([url](https://github.com/UM2-microscopia/fundamentos/blob/9f5f49aeff51ce340e8febabc532a6eade40b174/Precurso/muestra_optima.tif)).
 2. Para cada una de las imágenes, para cada canal, ve a `Image` → `Lookup Tables` → `HiLo`.
 La tabla de color (LUT) HiLo mostrará la imagen en escala de grises, pero pintará automáticamente de azul los píxeles que valgan exactamente 0 (sin señal) y de rojo puro los píxeles que alcancen el valor máximo del rango dinámico (saturados). 
 3. Observar las 3 imágenes en la escala HiLo y evaluar la presencia de píxeles sin señal o saturados.
