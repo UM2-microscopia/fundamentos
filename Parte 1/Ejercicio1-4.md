@@ -47,13 +47,17 @@ Un perfil de línea nos indica los valores de intensidad de cada uno de los píx
 5. `Analyse` → `Plot Profile` abre una nueva ventana en la que los valores de intensidad se representan en función de la distancia a lo largo de la línea
 6. Al hacer clic en el botón `Live` situado en la parte inferior derecha, se vincula de forma dinámica la línea trazada en la imagen con el gráfico; al desplazar dicha línea, el gráfico se actualizará automáticamente para mostrar el nuevo perfil.
 7. Los datos del perfil se pueden guardar: `Data` -> `Save Data...`, o se pueden copiar para pegar en excel: `Data` -> `Copy 1st Data Set` 
+8. La línea recta puede modificarse haciendo clic con el botón derecho en el botón de línea para mostrar formatos de línea alternativos (esto es posible con cualquier icono que presente un triángulo rojo orientado hacia abajo).
+
+<img width="1065" height="258" alt="Ej14-2" src="https://github.com/user-attachments/assets/6c441048-c80e-4189-8e78-b2cd6c30e15a" />
+
 
 >EJERCICIO
 >
->Draw a line and click 'list'. what does this show?
->Change the properties of the graph by experimenting in the `More>>` button. Change the line to circles, the colour to green and the 
-
-7. The type of line can be changed by right clicking the line button (possible with any icon that has the red downward-turned triangle). 
+>Dibuja una línea y haz clic en «list» (lista). ¿Qué se muestra?
+>Modifica las propiedades del gráfico experimentando con el botón `More>>`.
+>Cambia el perfil de línea a `Freehand Line` (línea a mano alzada), dibuja una forma y genera un perfil de línea.
+>¿Qué problemas de reproducibilidad podrían surgir al utilizar estas herramientas?
 
 ### Medir longitud
 
