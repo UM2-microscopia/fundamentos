@@ -75,7 +75,7 @@ Este método para medir la longitud de un objeto resulta útil para una consulta
 4. Aparecerá una ventana nueva que muestra diversas formas en las que se ha cuantificado dicha línea.
 3. Estas son las mediciones estándar, pero pueden personalizarse a través de `Results` → `Set Measurements`, donde es posible seleccionar las mediciones que se desea realizar.
 
-<img width="1056" height="642" alt="Ej143" src="https://github.com/user-attachments/assets/bd6dc88b-2af2-45f0-a1f0-7336b1f1e303" />
+<img width="790" height="676" alt="Ej144" src="https://github.com/user-attachments/assets/b7e94c28-6eff-44a0-9a99-9f55d3256f34" />
 
 >EJERCICIO
 >
