@@ -35,22 +35,27 @@ Existen 2 formas sencillas de comprobar los valores xy asignados a cada píxel:
 >
 >Calcula el tamaño en píxeles de esta imagen y asígnalo a la imagen utilizando uno de los métodos descritos anteriormente.
 
-## Medir longitud
+## Mediciones de líneas simples
 
-Choose any structure in your image.
+### Creación de un perfil de línea
+Un perfil de línea nos indica los valores de intensidad de cada uno de los píxeles situados a lo largo de una línea. Esto resulta útil para visualizar el contenido de nuestras imágenes, comparar visualmente las intensidades en distintas zonas de una imagen o realizar estimaciones manuales del tamaño de un objeto, empleando parámetros como la FWHM (anchura a media altura).
 
-1. Click on the 'straight line' button in the FIJI toolbar
-2. Draw a line across your object of interest
-3. Go to analyse - plot profile
-4. Displays intensity valyes along the line
-5. if you click the 'Live' button at the bottom right, you can actively move the line around the image and change the length, and your profile will be updates
-6. The type of line can be changed by right clicking the line button (possible with any icon that has the red downward-turned triangle). 
-7. You can save this data by `Data` -> `Save Data...`, or you can copy it to be pasted into excel using `Data` -> `Copy 1st Data Set` 
+1. Abrir la imagen Neuron (`File` → `Open Samples` → `neuron`)
+2. Duplicar canal 4 (cyan)
+3. Haz clic en el botón de «línea recta» en la barra de herramientas de FIJI
+4. Traza una línea a través de un objeto de tu interés
+5. `Analyse` → `Plot Profile` abre una nueva ventana en la que los valores de intensidad se representan en función de la distancia a lo largo de la línea
+6. Al hacer clic en el botón `Live` situado en la parte inferior derecha, se vincula de forma dinámica la línea trazada en la imagen con el gráfico; al desplazar dicha línea, el gráfico se actualizará automáticamente para mostrar el nuevo perfil.
+7. Los datos del perfil se pueden guardar: `Data` -> `Save Data...`, o se pueden copiar para pegar en excel: `Data` -> `Copy 1st Data Set` 
 
 >EJERCICIO
 >
 >Draw a line and click 'list'. what does this show?
 >Change the properties of the graph by experimenting in the `More>>` button. Change the line to circles, the colour to green and the 
+
+7. The type of line can be changed by right clicking the line button (possible with any icon that has the red downward-turned triangle). 
+
+### Medir longitud
 
 ## Region of Interest
 
