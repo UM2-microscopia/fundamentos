@@ -67,8 +67,7 @@ Un perfil de línea nos indica los valores de intensidad de cada uno de los píx
 3. Dibuja una línea recta a lo largo del diámetro del núcleo situado en el centro de la imagen, observando la barra de herramientas principal de FIJI mientras lo haces.
 4. Deberías ver la longitud de la línea, así como el ángulo respecto a la posición inicial y las coordenadas de la línea.
 
-![Ej14_3](https://github.com/user-attachments/assets/c5a3b4ca-6a00-4c0d-b506-61ffaadd79d1)
-
+<img width="1056" height="642" alt="Ej143" src="https://github.com/user-attachments/assets/d4a99550-7030-4447-812f-7e53104882db" />
 
 
 
