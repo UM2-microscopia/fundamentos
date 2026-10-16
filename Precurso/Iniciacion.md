@@ -73,11 +73,8 @@ Al inicar Fiji, debería ver:
 
 ### Preparación de los datos de muestra
 
-Para este taller, recomendamos tener dispobibles imágenes de muestra. para el material previo al curso, por favor descargue la siguiente imagen:
+Para este taller, recomendamos tener dispobibles imágenes de muestra. para el material previo al curso, por favor descargue precurso_rinon.tif desde la carpeta 'Precurso'.
 
-[precurso_rinon.tif](https://drive.google.com/file/d/1BRXXbFWyGyUZZkwqZHouyBJlWdSQGHdQ/view?usp=drive_link)
-
->NB necisitará una cuenta de Google para acceder a esta imagen. por favor, eníenos un correo si tiene algún problema para descargarla
 ---
 
 ## Abrir y visualizar imágenes
