@@ -26,7 +26,7 @@ Existen 2 formas sencillas de comprobar los valores xy asignados a cada píxel:
 >Abrir 'NoScale.tif' de la carpeta Precurso.
 >Comprueba el tamaño del píxel en las propiedades de la imagen.
 >
->The pixel size can be calculated using the following formula:
+>La siguiente fórmula se utiliza para calcular el tamaño del píxel:
 >
 >     Image pixel size (um) = camera pixel size (um) / magnification 
 >
