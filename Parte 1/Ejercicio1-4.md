@@ -69,16 +69,25 @@ Un perfil de línea nos indica los valores de intensidad de cada uno de los píx
 
 <img width="1056" height="642" alt="Ej143" src="https://github.com/user-attachments/assets/d4a99550-7030-4447-812f-7e53104882db" />
 
-
-
 Este método para medir la longitud de un objeto resulta útil para una consulta rápida, pero no es adecuado para realizar mediciones precisas; sobre todo porque el valor desaparece en cuanto se aleja el puntero del ratón del punto final de la línea, y no vuelve a aparecer.
 
-To save a measurement of the line, 
+1. To generate a value for the length of your line, easiest tool is just to click `m` on the keyboard.
+2. A new window appears, showing a variety of ways that this line has been quantified.
 
 
-## Region of Interest
+   
+3. These are the standard measurements, but they can be tailored by `Results` → `Set Measurements` where you can choose the measurements that you want to take. 
+
+>EJERCICIO
+>
+>Measure the same object by hand 5 times. Taking a measurement each time. Do this for 3 objects. What is the standard deviation between the objects by hand
+>What are the strengths and limitations of making measurements this way?
 
 
+## Regions of Interest
+A lot of the time, the types of quantitative measurements that you will want to make will be areas, therefore we need to you a tool other than the line. We can do this using the circle tool, using the other shapes. 
+
+To save a measurement shapes, you need to use the Region of Interest (ROI) manager. This is a very powerful tool that allows you to 
 
 
 
